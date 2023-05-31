@@ -1,11 +1,27 @@
-footer {
-    color: red
+/* Initial styling for background/hero image */
+
+header {
+    line-height: 150px;
 }
 
-/* Initial styling for background/hero image */
+#logo {
+    float: left;
+    margin: 30px 30px;
+}
+
+#nav-menu ul>li {
+    display: inline-block;
+    float: right;
+    list-style-type: none;
+    margin-right: 20px;
+    font-family: 'Franklin Gothic Medium', sans-serif;
+    font-size: 200%;
+    letter-spacing: 2px;
+}
 
 #background-image {
     height: 1200px;
     width: 100%;
     background: url(../images/oda-background-1.jpg) no-repeat center center;
+    clear: right;
 }
