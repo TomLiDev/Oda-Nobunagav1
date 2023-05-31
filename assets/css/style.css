@@ -1,3 +1,11 @@
 footer {
     color: red
 }
+
+/* Initial styling for background/hero image */
+
+#background-image {
+    height: 1200px;
+    width: 100%;
+    background: url(../images/oda-background-1.jpg) no-repeat center center;
+}
