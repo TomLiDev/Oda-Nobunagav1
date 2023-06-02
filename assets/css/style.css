@@ -1,27 +1,42 @@
-/* Initial styling for background/hero image */
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500&family=Lato:wght@300&family=Oswald&display=swap');
 
-header {
-    line-height: 150px;
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+/* body styling */
+
+body {
+    font-family: 'EB Garamond', sans-serif;
+}
+
+/* header styling, logo and nav */
+
+#logo,
+#menu {
+    line-height: 100px;
 }
 
 #logo {
     float: left;
-    margin: 30px 30px;
+    margin-left: 50px;
+    font-size: 300%;
 }
 
-#nav-menu ul>li {
-    display: inline-block;
+#menu li {
     float: right;
     list-style-type: none;
     margin-right: 20px;
-    font-family: 'Franklin Gothic Medium', sans-serif;
-    font-size: 200%;
-    letter-spacing: 2px;
+    font-size: 150%;
 }
 
+/* Background image and styling*/
+
 #background-image {
-    height: 1200px;
+    height: 700px;
     width: 100%;
-    background: url(../images/oda-background-1.jpg) no-repeat center center;
-    clear: right;
+    background: url(../images/oda-landscape1.jpg);
+    background-size: 100%;
 }
