@@ -8,21 +8,31 @@
 
 /* body styling */
 
-body {
+body * {
     font-family: 'EB Garamond', sans-serif;
+    color: white;
 }
 
 /* header styling, logo and nav */
 
-#logo,
-#menu {
-    line-height: 100px;
+#header-container {
+    background-color: black;
+    width: 100%;
+    height: 100px;
 }
+
 
 #logo {
     float: left;
     margin-left: 50px;
     font-size: 300%;
+    text-transform: uppercase;
+}
+
+#logo,
+#menu {
+    line-height: 100px;
+    text-decoration: none;
 }
 
 #menu li {
@@ -30,13 +40,15 @@ body {
     list-style-type: none;
     margin-right: 20px;
     font-size: 150%;
+    text-decoration: none;
 }
 
 /* Background image and styling*/
 
 #background-image {
-    height: 700px;
+    height: 820px;
     width: 100%;
-    background: url(../images/oda-landscape1.jpg);
+    background: url(../images/oda-background-2resreduced.jpg);
     background-size: 100%;
+    clear: both;
 }
