@@ -10,7 +10,6 @@
 
 body * {
     font-family: 'EB Garamond', sans-serif;
-    color: white;
 }
 
 /* header styling, logo and nav */
@@ -27,12 +26,12 @@ body * {
     margin-left: 50px;
     font-size: 300%;
     text-transform: uppercase;
+    color: #e4d2d2;
 }
 
 #logo,
 #menu {
     line-height: 100px;
-    text-decoration: none;
 }
 
 #menu li {
@@ -41,6 +40,16 @@ body * {
     margin-right: 20px;
     font-size: 150%;
     text-decoration: none;
+    color: #e4d2d2;
+}
+
+#crest-container {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    float: left;
+    margin-right: 10px;
+
 }
 
 /* Background image and styling*/
@@ -51,4 +60,27 @@ body * {
     background: url(../images/oda-background-2resreduced.jpg);
     background-size: 100%;
     clear: both;
+}
+
+/* Footer styling */
+
+#social-media {
+    height: 80px;
+    margin: auto;
+    width: 50%;
+}
+
+#social-media li {
+    line-height: 80px;
+    display: inline;
+    color: #e4d2d2;
+    margin-right: 40px;
+    margin-left: 20px;
+    text-transform: uppercase;
+}
+
+#footer-container {
+    background-color: black;
+    width: 100%;
+    height: 80px;
 }
