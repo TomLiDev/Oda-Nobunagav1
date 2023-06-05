@@ -46,9 +46,16 @@ body * {
 #crest-container {
     width: 100px;
     height: 100px;
-    background-color: green;
     float: left;
-    margin-right: 10px;
+}
+
+#crest {
+
+    width: 100px;
+    height: 100px;
+    float: left;
+    background-image: url('../images/oda-crest2.jpg');
+    background-size: 100px 100px;
 
 }
 
