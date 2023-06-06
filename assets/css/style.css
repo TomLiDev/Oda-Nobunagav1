@@ -75,6 +75,39 @@ body * {
 .body-column {
     width: 33%;
     height: 400px;
+    padding-top: 30px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.body-column>h2 {
+    font-size: 200%;
+}
+
+.body-column>p {
+    padding: 50px;
+}
+
+#left-column {
+    float: left;
+}
+
+#right-column {
+    float: right;
+}
+
+#mid-column {
+    margin: 0 auto;
+}
+
+.character {
+    height: 200px;
+    width: 200px;
+}
+
+#legacy-character {
+    width: 300px;
+    height: 200px;
 }
 
 /* Footer styling */
@@ -98,4 +131,5 @@ body * {
 
 #footer-container {
     background-color: black;
+    clear: both;
 }
