@@ -14,24 +14,25 @@ body * {
 
 /* header styling, logo and nav */
 
+.page-left {
+    float: left;
+    margin-left: 50px;
+}
+
+.header-items-height {
+    line-height: 80px;
+    height: 80px;
+}
+
 #header-container {
     background-color: black;
     width: 100%;
-    height: 100px;
 }
-
 
 #logo {
-    float: left;
-    margin-left: 50px;
     font-size: 300%;
     text-transform: uppercase;
-    color: #e4d2d2;
-}
-
-#logo,
-#menu {
-    line-height: 100px;
+    color: rgba(224, 224, 200)
 }
 
 #menu li {
@@ -40,23 +41,18 @@ body * {
     margin-right: 20px;
     font-size: 150%;
     text-decoration: none;
-    color: #e4d2d2;
+    color: rgba(224, 224, 200);
+    text-transform: uppercase;
 }
 
-#crest-container {
-    width: 100px;
-    height: 100px;
-    float: left;
-}
 
 #crest {
-
-    width: 100px;
-    height: 100px;
+    width: 80px;
     float: left;
     background-image: url('../images/oda-crest2.jpg');
-    background-size: 100px 100px;
-
+    background-size: 70px 70px;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 /* Background image and styling*/
@@ -66,28 +62,37 @@ body * {
     width: 100%;
     background: url(../images/oda-background-2resreduced.jpg);
     background-size: 100%;
-    clear: both;
 }
+
+#one-liner {
+    background-color: rgba(224, 224, 200, 0.7);
+    width: 220px;
+    height: 40px;
+}
+
+/* Body and Columns Styling */
+
+
 
 /* Footer styling */
 
+.footer-items {
+    line-height: 80px;
+    width: 100%;
+}
+
 #social-media {
-    height: 80px;
-    margin: auto;
-    width: 50%;
+    text-align: center;
 }
 
 #social-media li {
-    line-height: 80px;
     display: inline;
-    color: #e4d2d2;
     margin-right: 40px;
-    margin-left: 20px;
-    text-transform: uppercase;
+    margin-left: 40px;
+    color: rgba(224, 224, 200);
+    font-size: 200%;
 }
 
 #footer-container {
     background-color: black;
-    width: 100%;
-    height: 80px;
 }
