@@ -12,6 +12,10 @@ body * {
     font-family: 'EB Garamond', sans-serif;
 }
 
+a:hover {
+    text-decoration: underline solid rgba(224, 224, 200, 0.7);
+}
+
 .main-page-body {
     background-color: rgba(224, 224, 200, 0.7);
 }
@@ -59,7 +63,7 @@ body * {
     background-position: center;
 }
 
-a:hover {
+#logo:hover {
     border-bottom: 1px solid rgba(224, 224, 200, 0.7);
     text-decoration: underline solid rgba(224, 224, 200, 0.7);
 }
@@ -182,11 +186,17 @@ a:hover {
 #early-life-text {
     width: 400px;
     padding: 30px;
+    background-color: rgba(128, 128, 128, 0.5);
 }
 
 #early-life-image {
-    width: 400px;
-    height: 600px;
+    width: 40px;
+    height: 60px;
+    object-fit: contain;
+}
+
+#unification {
+    clear: both;
 }
 
 /** Unification **/
