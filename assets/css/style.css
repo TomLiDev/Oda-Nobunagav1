@@ -55,6 +55,16 @@ body * {
     background-position: center;
 }
 
+menu a:hover {
+    border-bottom: 1px solid blue;
+    background-color: aqua;
+}
+
+menu li:hover {
+    border-bottom: 1px solid blue;
+    background-color: aqua;
+}
+
 /* Background image and styling*/
 
 #background-image {
@@ -127,7 +137,9 @@ body * {
 }
 
 #social-media {
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
 }
 
 #social-media li {
