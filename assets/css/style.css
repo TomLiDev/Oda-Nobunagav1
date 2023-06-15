@@ -12,6 +12,10 @@ body * {
     font-family: 'EB Garamond', sans-serif;
 }
 
+.main-page-body {
+    background-color: rgba(224, 224, 200, 0.7);
+}
+
 /* header styling, logo and nav */
 
 .page-left {
@@ -55,14 +59,13 @@ body * {
     background-position: center;
 }
 
-menu a:hover {
-    border-bottom: 1px solid blue;
-    background-color: aqua;
+a:hover {
+    border-bottom: 1px solid rgba(224, 224, 200, 0.7);
+    text-decoration: underline solid rgba(224, 224, 200, 0.7);
 }
 
-menu li:hover {
-    border-bottom: 1px solid blue;
-    background-color: aqua;
+#menu li:hover {
+    text-decoration: underline solid rgba(224, 224, 200, 0.7);
 }
 
 /* Background image and styling*/
@@ -154,3 +157,36 @@ menu li:hover {
     background-color: black;
     clear: both;
 }
+
+/** Rise page **/
+
+/** Early life **/
+
+#early-life {
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+    width: 100%;
+    height: 600px;
+    clear: both;
+}
+
+#early-life h1 {
+    font-size: 200%;
+}
+
+#early-life h3 {
+    padding-bottom: 10px;
+}
+
+#early-life-text {
+    width: 400px;
+    padding: 30px;
+}
+
+#early-life-image {
+    width: 400px;
+    height: 600px;
+}
+
+/** Unification **/
