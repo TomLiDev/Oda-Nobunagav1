@@ -207,6 +207,10 @@ a:hover {
 
 /** Map **/
 
+#map-section {
+    position: relative;
+}
+
 #map-outer {
     height: 500px;
     width: 100%;
@@ -230,4 +234,13 @@ a:hover {
     to {
         transform: scale(1.2)
     }
+}
+
+#map-text {
+    background-color: rgba(250, 250, 250, 0.5);
+    width: 300px;
+    padding: 30px;
+    margin: 30px;
+    position: absolute;
+    top: 10px;
 }
