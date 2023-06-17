@@ -268,3 +268,17 @@ a:hover {
     padding: 30px;
     height: 600px;
 }
+
+/** Video section **/
+
+#shooting-video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#shooting-video {
+    width: 560px;
+    height: 315px;
+}
