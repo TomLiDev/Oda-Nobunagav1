@@ -64,7 +64,6 @@ a:hover {
 }
 
 #logo:hover {
-    border-bottom: 1px solid rgba(224, 224, 200, 0.7);
     text-decoration: underline solid rgba(224, 224, 200, 0.7);
 }
 
@@ -127,7 +126,7 @@ a:hover {
     height: 200px;
 }
 
-#bottom-crest {
+.bottom-crest {
     display: flex;
     flex-direction: row;
     justify-content: center;
