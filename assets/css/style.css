@@ -170,9 +170,7 @@ a:hover {
     display: flex;
     flex-direction: row;
     padding: 30px;
-    width: 100%;
     height: 600px;
-    clear: both;
 }
 
 .story-pages-heading h1 {
@@ -186,17 +184,57 @@ a:hover {
 #early-life-text {
     width: 400px;
     padding: 30px;
-    background-color: rgba(128, 128, 128, 0.5);
+    background-color: rgba(250, 250, 250, 0.5);
 }
 
 #early-life-image {
-    width: auto;
+    width: 100%;
     height: 600px;
     overflow: hidden;
 }
 
+/** Unification **/
+
 #unification {
+    padding: 30px;
+    height: 600px;
+}
+
+#unification-text {
+    background-color: rgba(250, 250, 250, 0.5);
+    padding: 30px;
+}
+
+/** Map **/
+
+#map-outer {
+    height: 600px;
+    width: auto;
+    background: url(../images/odamap2.webp) no-repeat center center;
+    overflow: hidden;
+
+    /**
+    animation-name: map-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+    
+}
+
+#map-outer {
+    height: 600px;
+    width: auto;
+    overflow: hidden;
     clear: both;
 }
 
-/** Unification **/
+**/
+
+    @keyframes map-zoom {
+        from {
+            transform: scale(1);
+        }
+
+        to {
+            transform: scale(1.1)
+        }
+    }
