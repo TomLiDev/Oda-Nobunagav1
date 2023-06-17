@@ -134,6 +134,7 @@ a:hover {
     height: 100px;
     width: 100%;
     padding-bottom: 20px;
+    clear: both;
 }
 
 /* Footer styling */
@@ -197,7 +198,6 @@ a:hover {
 
 #unification {
     padding: 30px;
-    height: 600px;
 }
 
 #unification-text {
@@ -208,33 +208,26 @@ a:hover {
 /** Map **/
 
 #map-outer {
-    height: 600px;
-    width: auto;
+    height: 500px;
+    width: 100%;
+    overflow: hidden;
+}
+
+#map {
+    height: 500px;
+    width: 100%;
     background: url(../images/odamap2.webp) no-repeat center center;
-    overflow: hidden;
-
-    /**
     animation-name: map-zoom;
-    animation-duration: 5s;
+    animation-duration: 10s;
     animation-fill-mode: forwards;
-    
 }
 
-#map-outer {
-    height: 600px;
-    width: auto;
-    overflow: hidden;
-    clear: both;
-}
-
-**/
-
-    @keyframes map-zoom {
-        from {
-            transform: scale(1);
-        }
-
-        to {
-            transform: scale(1.1)
-        }
+@keyframes map-zoom {
+    from {
+        transform: scale(0.8);
     }
+
+    to {
+        transform: scale(1.2)
+    }
+}
