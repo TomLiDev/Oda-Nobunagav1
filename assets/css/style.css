@@ -243,3 +243,28 @@ a:hover {
     position: absolute;
     top: 10px;
 }
+
+/** Reign page styling **/
+
+.main-page-text {
+    background-color: rgba(250, 250, 250, 0.5);
+    padding: 30px;
+}
+
+/** Conquest **/
+
+#conquest {
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+    height: 600px;
+}
+
+/** Unification of Japan **/
+
+#unification-japan {
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+    height: 600px;
+}
