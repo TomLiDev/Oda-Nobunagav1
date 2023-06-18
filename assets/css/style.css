@@ -315,3 +315,11 @@ a:hover {
     display: flex;
     flex-direction: row;
 }
+
+/** History and Legacy Section **/
+
+#history-legacy {
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+}
