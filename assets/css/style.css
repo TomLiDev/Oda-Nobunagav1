@@ -28,8 +28,8 @@ a:hover {
 }
 
 .header-items-height {
-    line-height: 80px;
-    height: 80px;
+    line-height: 100px;
+    height: 100px;
 }
 
 #header-container {
@@ -53,12 +53,11 @@ a:hover {
     text-transform: uppercase;
 }
 
-
 #crest {
-    width: 80px;
+    width: 60px;
     float: left;
     background-image: url('../images/oda-crest2.jpg');
-    background-size: 70px 70px;
+    background-size: 60px 60px;
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -99,14 +98,13 @@ a:hover {
     display: flex;
     flex-direction: row;
     text-decoration: none;
+    height: 400px;
+    text-align: center;
+    margin-bottom: 120px;
 }
 
 .body-column {
     width: 33%;
-    height: 400px;
-    padding-top: 30px;
-    text-align: center;
-    margin-bottom: 100px;
 }
 
 .body-column>a {
@@ -135,6 +133,7 @@ a:hover {
     height: 300px;
     padding-top: 50px;
     margin: 20px;
+    text-decoration: none;
 }
 
 .character-links:hover {
