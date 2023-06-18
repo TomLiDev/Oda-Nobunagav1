@@ -307,3 +307,11 @@ a:hover {
     width: 560px;
     height: 315px;
 }
+
+/** Legacy Page, starting with Betrayal **/
+
+#betrayal {
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+}
