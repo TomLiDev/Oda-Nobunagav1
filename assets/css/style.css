@@ -95,6 +95,12 @@ a:hover {
 
 /* Body and Columns Styling */
 
+#character-columns {
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+}
+
 .body-column {
     width: 33%;
     height: 400px;
@@ -103,24 +109,15 @@ a:hover {
     margin-bottom: 100px;
 }
 
-.body-column>h2 {
-    font-size: 200%;
+.body-column>a {
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
 }
 
 .body-column>p {
-    padding: 50px;
-}
-
-#left-column {
-    float: left;
-}
-
-#right-column {
-    float: right;
-}
-
-#mid-column {
-    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .character {
@@ -131,6 +128,18 @@ a:hover {
 #legacy-character {
     width: 300px;
     height: 200px;
+}
+
+.character-links {
+    width: auto;
+    height: 300px;
+    padding-top: 50px;
+    margin: 20px;
+}
+
+.character-links:hover {
+    border: 3px solid black;
+    border-radius: 50%;
 }
 
 .bottom-crest {
