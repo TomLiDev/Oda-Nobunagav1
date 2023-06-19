@@ -12,6 +12,10 @@ body * {
     font-family: 'EB Garamond', sans-serif;
 }
 
+a {
+    text-decoration: none;
+}
+
 a:hover {
     text-decoration: underline solid rgba(224, 224, 200, 0.7);
 }
@@ -22,40 +26,46 @@ a:hover {
 
 /* header styling, logo and nav */
 
-.page-left {
-    float: left;
-    margin-left: 50px;
-}
-
-.header-items-height {
+#header-container {
+    width: 100%;
     line-height: 100px;
     height: 100px;
-}
-
-#header-container {
+    display: flex;
+    flex-direction: row;
     background-color: black;
     width: 100%;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+#logo-crest {
+    display: flex;
+    flex-direction: row;
 }
 
 #logo {
     font-size: 300%;
-    text-transform: uppercase;
-    color: rgba(224, 224, 200)
+    color: rgba(224, 224, 200);
+    padding-left: 60px;
+}
+
+#menu {
+    display: flex;
+    flex-direction: row-reverse;
+    padding-left: 400px;
+    height: 100px;
 }
 
 #menu li {
-    float: right;
     list-style-type: none;
     margin-right: 30px;
     font-size: 150%;
-    text-decoration: none;
     color: rgba(224, 224, 200);
-    text-transform: uppercase;
+    height: 100px;
 }
 
 #crest {
     width: 60px;
-    float: left;
     background-image: url('../images/oda-crest2.jpg');
     background-size: 60px 60px;
     background-repeat: no-repeat;
@@ -346,6 +356,10 @@ a:hover {
         height: 1200px;
     }
 
+    #logo {
+        font-size: 250%;
+    }
+
     .body-column {
         width: 60%;
         padding-left: 20%;
@@ -357,6 +371,7 @@ a:hover {
         padding: 30px;
         clear: both;
         height: auto;
+        align-items: center;
     }
 
     #early-life-text {
@@ -366,7 +381,6 @@ a:hover {
     #early-life-image {
         width: auto;
         height: 500px;
-        margin-left: 18%;
     }
 
     #map {
@@ -392,11 +406,21 @@ a:hover {
         display: flex;
         flex-direction: column;
         height: auto;
+        align-items: center;
+    }
+
+    #conquest-text {
+        display: flex;
+        flex-direction: column;
     }
 
     #battle1-image {
         float: none;
-        padding-left: 9%;
+    }
+
+    #battle1-container {
+        display: flex;
+        justify-content: center;
     }
 
     #unification-japan {
@@ -433,4 +457,36 @@ a:hover {
         align-items: center;
     }
 
+}
+
+/* For small screens less than 900px */
+
+@media screen and (max-width: 900px) {
+    .header-items-height {
+        line-height: 80px;
+        height: 80px;
+    }
+
+    #logo {
+        font-size: 200%;
+        text-align: center;
+    }
+
+    #menu li {
+        list-style-type: none;
+        margin-right: 30px;
+        font-size: 150%;
+    }
+
+    #crest {
+        width: 40px;
+        float: left;
+        background-size: 40px 40px;
+    }
+
+    #header-container-small {
+        display: flex;
+        flex-direction: column;
+        clear: both;
+    }
 }
