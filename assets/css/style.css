@@ -349,4 +349,43 @@ a:hover {
         width: 60%;
         padding-left: 20%;
     }
+
+    #early-life {
+        display: flex;
+        flex-direction: column;
+        padding: 30px;
+        clear: both;
+        height: auto;
+    }
+
+    #early-life-text {
+        width: auto;
+    }
+
+    #early-life-image {
+        width: auto;
+        height: 500px;
+        margin-left: 18%;
+    }
+
+    #map {
+        height: 400px;
+        width: auto;
+    }
+
+    #map-outer {
+        height: 400px;
+        width: auto;
+    }
+
+    #map-text {
+        position: absolute;
+        width: 250px;
+        padding: 20px;
+        margin: 0;
+        margin-left: 30px;
+        top: 0px;
+    }
+
+
 }
