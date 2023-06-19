@@ -307,6 +307,7 @@ a:hover {
 /** Video section **/
 
 #shooting-video-container {
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -386,6 +387,36 @@ a:hover {
         margin-left: 30px;
         top: 0px;
     }
+
+    #conquest {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+
+    #battle1-image {
+        float: none;
+        padding-left: 9%;
+    }
+
+    #unification-japan {
+        height: auto;
+        flex-direction: column;
+    }
+
+    #castle-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 400px;
+    }
+
+    #castle {
+        padding-top: 0px;
+        padding-bottom: 30px;
+        height: 400px;
+    }
+
 
 
 }
