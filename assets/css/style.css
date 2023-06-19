@@ -509,6 +509,41 @@ a:hover {
         background-size: 60px 60px;
     }
 
-    #one-liner
+    #one-liner {
+        width: 240px;
+        height: 80px;
+        text-align: center;
+        position: absolute;
+        top: 30px;
+        left: 30px;
+        padding-top: 10px;
+        font-size: 100%;
+    }
+
+    #character-columns {
+        display: flex;
+        text-decoration: none;
+        height: 500px;
+        text-align: center;
+        margin-bottom: 120px;
+    }
+
+    .character {
+        height: 150px;
+        width: 150px;
+    }
+
+    #legacy-character {
+        width: 250px;
+        height: 150px;
+    }
+
+    .character-links {
+        width: auto;
+        height: 200px;
+        padding-top: 20px;
+        margin: 20px;
+        text-decoration: none;
+    }
 
 }
