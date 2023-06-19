@@ -52,8 +52,8 @@ a:hover {
 #menu {
     display: flex;
     flex-direction: row-reverse;
-    padding-left: 400px;
     height: 100px;
+    padding-left: 400px;
 }
 
 #menu li {
@@ -356,8 +356,14 @@ a:hover {
         height: 1200px;
     }
 
+    #menu {
+        padding-left: 100px;
+    }
+
+
     #logo {
         font-size: 250%;
+        padding-right: 30px;
     }
 
     .body-column {
@@ -462,31 +468,47 @@ a:hover {
 /* For small screens less than 900px */
 
 @media screen and (max-width: 900px) {
-    .header-items-height {
-        line-height: 80px;
-        height: 80px;
+    #header-container {
+        width: 100%;
+        line-height: 60px;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #menu {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding: 0;
+        align-items: center;
     }
 
     #logo {
         font-size: 200%;
         text-align: center;
+        padding: 10px;
+    }
+
+    #logo-crest {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
     #menu li {
-        list-style-type: none;
-        margin-right: 30px;
-        font-size: 150%;
+        height: 50px;
+        text-align: center;
+        padding: 0;
+        margin: 0;
     }
 
     #crest {
-        width: 40px;
-        float: left;
-        background-size: 40px 40px;
+        width: 60px;
+        height: 60px;
+        background-size: 60px 60px;
     }
 
-    #header-container-small {
-        display: flex;
-        flex-direction: column;
-        clear: both;
-    }
+    #one-liner
+
 }
