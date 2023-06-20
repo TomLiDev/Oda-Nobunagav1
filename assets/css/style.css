@@ -112,6 +112,7 @@ a:hover {
     height: 400px;
     text-align: center;
     margin-bottom: 120px;
+    position: relative;
 }
 
 .body-column {
@@ -509,6 +510,10 @@ a:hover {
         background-size: 60px 60px;
     }
 
+    #background-image {
+        height: 750px;
+    }
+
     #one-liner {
         width: 240px;
         height: 80px;
@@ -522,28 +527,53 @@ a:hover {
 
     #character-columns {
         display: flex;
+        flex-direction: column;
         text-decoration: none;
         height: 500px;
         text-align: center;
-        margin-bottom: 120px;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 120px;
     }
 
     .character {
-        height: 150px;
-        width: 150px;
+        height: 120px;
+        width: auto;
     }
 
     #legacy-character {
-        width: 250px;
-        height: 150px;
+        width: 160px;
+        height: 110px;
     }
 
     .character-links {
-        width: auto;
+        width: 200px;
         height: 200px;
-        padding-top: 20px;
-        margin: 20px;
         text-decoration: none;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+    }
+
+    .bottom-crest {
+        clear: both;
+        padding-bottom: 10px;
+    }
+
+    .body-column {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        width: 80%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .body-column>p {
+        padding: 0;
     }
 
 }
