@@ -292,15 +292,20 @@ a:hover {
     display: flex;
     flex-direction: row;
     padding: 30px;
-    height: 550px;
+    height: auto;
+    align-items: center;
+}
+
+#conquest-text {
+    display: flex;
+    flex-direction: row;
     align-items: center;
 }
 
 #battle1-image {
-    width: 800px;
-    height: 400px;
-    float: right;
-    padding-left: 20px;
+    width: 750px;
+    height: 375px;
+    padding-left: 30px;
 }
 
 /** Unification of Japan **/
