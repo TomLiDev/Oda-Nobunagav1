@@ -36,11 +36,13 @@ a:hover {
     width: 100%;
     text-decoration: none;
     text-transform: uppercase;
+    justify-content: space-between;
 }
 
 #logo-crest {
     display: flex;
     flex-direction: row;
+    padding-left: 2%;
 }
 
 #logo {
@@ -53,7 +55,7 @@ a:hover {
     display: flex;
     flex-direction: row-reverse;
     height: 100px;
-    padding-left: 400px;
+    padding-right: 10%;
 }
 
 #menu li {
@@ -210,8 +212,8 @@ a:hover {
 }
 
 #early-life-text {
-    width: 400px;
-    padding: 30px;
+    width: 50%;
+    padding: 3%;
     background-color: rgba(250, 250, 250, 0.5);
 }
 
@@ -236,6 +238,9 @@ a:hover {
 
 #map-section {
     position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 #map-outer {
@@ -251,6 +256,7 @@ a:hover {
     animation-name: map-zoom;
     animation-duration: 20s;
     animation-fill-mode: forwards;
+    background-position: center;
 }
 
 @keyframes map-zoom {
@@ -269,7 +275,8 @@ a:hover {
     padding: 30px;
     margin: 30px;
     position: absolute;
-    top: 10px;
+    left: 10%;
+    top: 1%;
 }
 
 /** Reign page styling **/
@@ -354,7 +361,7 @@ a:hover {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        height: 1200px;
+        height: 1300px;
     }
 
     #menu {
@@ -390,14 +397,22 @@ a:hover {
         height: 500px;
     }
 
+    #map-section {
+        flex-direction: row;
+    }
+
     #map {
-        height: 400px;
-        width: auto;
+        height: 450px;
+        width: 800px;
+        display: flex;
+        justify-content: center;
     }
 
     #map-outer {
-        height: 400px;
-        width: auto;
+        height: 450px;
+        width: 800px;
+        display: flex;
+        justify-content: center;
     }
 
     #map-text {
@@ -405,8 +420,8 @@ a:hover {
         width: 250px;
         padding: 20px;
         margin: 0;
-        margin-left: 30px;
         top: 0px;
+        left: 3%;
     }
 
     #conquest {
@@ -466,9 +481,9 @@ a:hover {
 
 }
 
-/* For small screens less than 900px */
+/* For small screens less than 950px */
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 950px) {
     #header-container {
         width: 100%;
         line-height: 60px;
@@ -479,7 +494,7 @@ a:hover {
 
     #menu {
         display: flex;
-        flex-direction: column;
+        flex-direction: column-reverse;
         text-align: center;
         padding: 0;
         align-items: center;
@@ -576,4 +591,62 @@ a:hover {
         padding: 0;
     }
 
+    #map {
+        width: 95%;
+        background-size: 95%;
+    }
+
+    #map-outer {
+        width: 95%;
+    }
+
+    #map-section {
+        width: 100%;
+        position: static;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    #map-text {
+        position: static;
+        width: 80%;
+    }
+
+
+
+    /* For smallest mobile screens */
+
+    @media screen and (max-width: 500px) {
+        #one-liner {
+            width: 135px;
+            height: 50px;
+            text-align: center;
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            padding-top: 5px;
+            font-size: 70%;
+        }
+
+        #background-image {
+            height: 550px;
+        }
+
+        .bottom-crest {
+            height: 80px;
+        }
+
+        #early-life-image {
+            width: 100%;
+            height: auto;
+            overflow: hidden;
+        }
+
+        #map-section {}
+
+        #map {
+            background-size: 110%;
+        }
+
+    }
 }
