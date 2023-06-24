@@ -58,7 +58,7 @@ a:hover {
     padding-right: 10%;
 }
 
-#menu li {
+#menu a {
     list-style-type: none;
     margin-right: 30px;
     font-size: 150%;
@@ -179,7 +179,7 @@ a:hover {
     flex-direction: row;
 }
 
-#social-media li {
+#social-media a {
     display: inline;
     margin-right: 40px;
     margin-left: 40px;
@@ -332,8 +332,8 @@ a:hover {
 }
 
 #shooting-video {
-    width: 560px;
-    height: 315px;
+    width: 885px;
+    height: 500px;
 }
 
 /* Legacy Page, starting with Betrayal */
@@ -443,6 +443,7 @@ a:hover {
     #battle1-container {
         display: flex;
         justify-content: center;
+        padding-bottom: 20px;
     }
 
     #unification-japan {
@@ -454,7 +455,7 @@ a:hover {
         display: flex;
         justify-content: center;
         align-items: center;
-        height: 400px;
+        height: 95%;
     }
 
     #castle {
@@ -612,6 +613,21 @@ a:hover {
         width: 80%;
     }
 
+    #battle1-image {
+        width: 100%;
+        height: auto;
+    }
+
+    #castle {
+        height: auto;
+        width: 70%;
+    }
+
+    #shooting-video {
+        width: 450px;
+        height: 300px;
+    }
+
 
 
     /* For smallest mobile screens */
@@ -642,11 +658,15 @@ a:hover {
             overflow: hidden;
         }
 
-        #map-section {}
-
         #map {
             background-size: 110%;
         }
 
+        #shooting-video {
+            width: 95%;
+            height: 260px;
+        }
     }
+
+}
 }
