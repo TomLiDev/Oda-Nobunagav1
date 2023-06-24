@@ -292,7 +292,8 @@ a:hover {
     display: flex;
     flex-direction: row;
     padding: 30px;
-    height: 600px;
+    height: 550px;
+    align-items: center;
 }
 
 #battle1-image {
@@ -308,18 +309,19 @@ a:hover {
     display: flex;
     flex-direction: row;
     padding: 30px;
-    height: 740px;
+    height: auto;
 }
 
 #castle-container {
-    height: 740px;
+    height: auto;
     background-color: rgba(250, 250, 250, 0.5);
 }
 
 #castle {
-    padding-top: 25%;
     width: 600px;
-    height: auto;
+    padding-top: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
 }
 
 /** Video section **/
@@ -344,12 +346,20 @@ a:hover {
     flex-direction: row;
 }
 
+#betrayal-text {
+    padding-top: 5%;
+}
+
 /* History and Legacy Section */
 
 #history-legacy {
     display: flex;
     flex-direction: row;
     padding: 30px;
+}
+
+#legacy-text {
+    padding-top: 5%;
 }
 
 /* Media Queries */
@@ -476,8 +486,16 @@ a:hover {
     }
 
     #history-legacy {
-        flex-direction: column;
+        flex-direction: column-reverse;
         align-items: center;
+    }
+
+    #betrayal-text {
+        padding-top: 3%;
+    }
+
+    #legacy-text {
+        padding-top: 3%;
     }
 
 }
@@ -513,7 +531,7 @@ a:hover {
         align-items: center;
     }
 
-    #menu li {
+    #menu a {
         height: 50px;
         text-align: center;
         padding: 0;
@@ -592,6 +610,11 @@ a:hover {
         padding: 0;
     }
 
+    #early-life-image {
+        width: 100%;
+        height: auto;
+    }
+
     #map {
         width: 95%;
         background-size: 95%;
@@ -626,6 +649,15 @@ a:hover {
     #shooting-video {
         width: 450px;
         height: 300px;
+    }
+
+    #betrayal {
+        flex-direction: column;
+    }
+
+    #legacy-map {
+        width: auto;
+        height: 450px;
     }
 
 
@@ -666,6 +698,17 @@ a:hover {
             width: 95%;
             height: 260px;
         }
+
+        #betrayal-image {
+            width: 300px;
+            height: auto;
+        }
+
+        #legacy-map {
+            width: 300px;
+            height: auto;
+        }
+
     }
 
 }
