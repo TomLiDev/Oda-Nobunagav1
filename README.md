@@ -12,8 +12,6 @@ Please use the link below to view the live, deployed site:
 
 [Oda Nobunaga Live Site](https://tomlidev.github.io/Oda-Nobunagav1/)
 
-## CONTENTS
-
 ## User Experience
 
 Oda Nubanaga, Japans First Great Unifier, is a website which provides interesting, easy to navigate content for a range of users with various interests and content requirements.
@@ -51,7 +49,7 @@ I wanted a colour scheme which provided good contrast between text/headers and b
 
 Many of the images I used for the project are digital copies of original Japanese artwork produced at the time, paintings on parchment and similar materials, which had a straw-like yellow/faded white colour to them. I used this colour as the background for many of the site pages, and it worked well blending the background images and giving contrast for headings and text. I also used the same colour for the font on the nav bar items, to provide consistency and I think it looks better here than plain white.
 
-[Image of Color Palette](documentation/color-palette.png)
+![Image of Color Palette](documentation/color-palette.png)
 
 For the section on the homepage where Japanese characters are used I decided to keep the background pure white as this gave better contrast between the characters. It also helped to act as something of a page break from the hero image.
 
@@ -93,13 +91,13 @@ Please use the links below to view the relevant wireframe.
 
 Every page has the same navigation bar at the top, comprising Oda Nobunaga (the name as it is) in the top left of the nav bar as an anchor back to the homepage. Immediatly to the right is a small image of the Oda house crest. To the right of the nav bar are Rise, Reign and Legacy links, which take the user to the relevant page.
 
-[Image of the Nav Bar, found at the top of all pages](documentation/nav-bar.PNG)
+![Image of the Nav Bar, found at the top of all pages](documentation/nav-bar.PNG)
 
 #### Footer
 
 Every page has the same footer bar comprising icon links to Facebook, Instagram, Twitter and Linkedin.
 
-[Image of the footer, found at the bottom of all pages](documentation/footer.PNG)
+![Image of the footer, found at the bottom of all pages](documentation/footer.PNG)
 
 ### Homepage
 
@@ -111,7 +109,7 @@ On the homepage the user is presented with the hero image of Oda Nobunaga with a
 
 The rise page is comprised of 2 vertically seperate sections. The first details Nobunagas early life with an image of Ashigaru, a military unit he made famous. All text sections across the rise, reig and legacy pages are comprised of a title, sub title with a date(s) and the main text content itself.
 
-![An image of the rise page shown on different devices](documentation/rise-page-devices.png)
+![An image of the rise page shown on different devices](documentation/rise-page-devices.PNG)
 
 The second section details the Unification of Owara. Below this is a map with a slowly-zooming in animation effect. This was chosen for 2 reasons, firstly I wanted to create the impression of how many other territories surrounded Nobunaga, and secondly with it at the bottom of the page I wanted to increase the chance the user would actually see it.
 
@@ -121,7 +119,7 @@ The reign page is comprised of 2 vertically seperate sections. The first gives d
 
 Beneath this is a iframe element containing an embedded Youtube video on Japanese matchlock weapons. I wanted to incorporate media that was more dynamic than simple text and images and bring the technology of the day alive and more real.
 
-![An image of the reign page shown on different devices](documentation/reign-page-devices.png)
+![An image of the reign page shown on different devices](documentation/reign-page-devices.PNG)
 
 Below this, above the footer, is the Unification of Japan section which gives further detail on Nobunagas campaigns and eventual conquest of the country. A large image of Azuchi castle is to the right of the text.
 
@@ -129,7 +127,7 @@ Below this, above the footer, is the Unification of Japan section which gives fu
 
 The legacy page is comprised of 2 vertically seperate sections. The first is split with text on the left and an image on the right of Nobunagas betrayal and assasination.
 
-![An image of the legacy page shown on different devices](documentation/legacy-page-devices.png)
+![An image of the legacy page shown on different devices](documentation/legacy-page-devices.PNG)
 
 Below this is the final content section detailing Nobunagas legacy and ongoing historical significance. In this section the map to the left of the text takes up half of the section and shows the total territoy eventually conquered by Nobunaga and his ally. I wanted this image ot be large, partly so the legend of the map is readable, but also to show clearly the extent of conquest from his starting point.
 
