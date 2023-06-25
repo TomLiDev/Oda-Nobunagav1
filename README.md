@@ -28,12 +28,20 @@ As a user who is interested in learning more about the samurai I want quick, eas
 
 ### Colour Scheme
 
-I wanted a striking, eye catching colour scheme that drew the user in and made images stand out, whilst also providing good contrast between text/headers and backgrounds for easy navigation. 
+I wanted a striking, eye catching colour scheme that drew the user in and made images stand out, whilst also providing good contrast between text/headers and backgrounds for easy navigation.
 
 Many of the images I used for the project are digital copies of original Japanese artwork produced at the time, paintings on parchment and similar materials, which had a straw-like yellow/faded white colour to them. I used this colour as the background for many of the site pages, and it worked well blending the background images and giving contrast for headings and text. I also used the same colour for the font on the nav bar items, to provide consistency and I think it looks better here than plain white.
 
-INSERT IMAGE 
+INSERT IMAGE
 
 For the section on the homepage where Japanese characters are used I decided to keep the background pure white as this gave better contrast between the characters. It also helped to act as something of a page break from the hero image.
 
 I toyed with the idea of using bold red text on the white, to match the Japanese flag, but felt this looked to garish.
+
+### Typography
+
+I used the INSERT FONT AND IMAGE
+
+### Imagery
+
+Fortunately there are a number of high quality historical images digitally reproduced from original Japanese artwork that I have used throughout the site. This includes images of Nobunaga himself, his military units, battles and castles. These images are impressive and also maintain the historical theme as users navigate the site. However I decided to use modern maps where relevant as the historical maps, whilst pretty, were difficuilt to read and I wanted to give a clear indication of territory/expansion as information. I specifically didn't want to use photos or modern-style representations of samurai as I feel this wouldn't have fit with the historical theme of the site.
