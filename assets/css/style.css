@@ -257,6 +257,7 @@ a:hover {
     animation-duration: 20s;
     animation-fill-mode: forwards;
     background-position: center;
+    background-size: 60%;
 }
 
 @keyframes map-zoom {
@@ -421,6 +422,7 @@ a:hover {
         width: 800px;
         display: flex;
         justify-content: center;
+        background-size: 80%;
     }
 
     #map-outer {
@@ -696,10 +698,6 @@ a:hover {
             width: 100%;
             height: auto;
             overflow: hidden;
-        }
-
-        #map {
-            background-size: 110%;
         }
 
         #shooting-video {

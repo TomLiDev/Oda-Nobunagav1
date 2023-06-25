@@ -89,7 +89,7 @@ Please use the links below to view the relevant wireframe.
 
 #### Header/Nav Bar
 
-Every page has the same navigation bar at the top, comprising Oda Nobunaga (the name as it is) in the top left of the nav bar as an anchor back to the homepage. Immediatly to the right is a small image of the Oda house crest. To the right of the nav bar are Rise, Reign and Legacy links, which take the user to the relevant page.
+Every page has the same navigation bar at the top, comprising Oda Nobunaga (the name as it is) in the top left of the nav bar as an anchor back to the homepage. Immediatly to the right is a small image of the Oda house crest. To the right of the nav bar are Rise, Reign and Legacy links, which take the user to the relevant page. This facilitates simple and clear navigation to the relevant page of interest, and back to the home, from any page.
 
 ![Image of the Nav Bar, found at the top of all pages](documentation/nav-bar.PNG)
 
@@ -101,7 +101,7 @@ Every page has the same footer bar comprising icon links to Facebook, Instagram,
 
 ### Homepage
 
-On the homepage the user is presented with the hero image of Oda Nobunaga with a stap-line text section appearing in the top left as a very brief explanation of what the site is about. Below this are the 3 Japanese characters representing Rise, Reign and Legacy, showing the relevant years of these phases of Nobunaga's life and a brief text explanation of the time period. The character and time sub heading are wrapped in anchor which also links the user to the relevant page.
+On the homepage the user is presented with the hero image of Oda Nobunaga with a stap-line text section appearing in the top left as a very brief explanation of what the site is about. Below this are the 3 Japanese characters representing Rise, Reign and Legacy, showing the relevant years of these phases of Nobunaga's life and a brief text explanation of the time period. The character and time sub heading are wrapped in anchor which also links the user to the relevant page. This section acts as a secondary prompt to explore another page of the site through visually appealing links, with more explanation of these pages for a user who is more detail-focused.
 
 ![An image of the homepage on different devices](documentation/readme-intro.png)
 
@@ -238,6 +238,8 @@ The W3C validator was used to validate all HTML pages and CSS in the style.css.
 ### Known Issues
 
 1. On the homepage, the image for the legacy character, being actually 2 characters not 1, and a larger image just overlaps the black circle which is shown on hover for this link. This is a minor aethestic issue and has no a minor aspect on experince, the alternative to fix this would have meant having a larger circle and link for the legacy character, which would have been inconsistent and caused issues with the structure and styling.
+
+2. Map on Rise Page - This map has proven challenging to get displaying correclty on different screen sizes. To include the entire map on a desktop size screen requires the background-size to be set very small, less than 50%, which looks bad very quickly on any screens smaller than 'full' monitor size. Therefore the background-size increases as a percentage as screen size gets smaller, which keeps the map a good size on the screen itself whilst also loosely maintaining a focus for the map to show the centre, in which Nobunagas territory is surrounded by enemies, which is the whole point of the graphic. However, with the zoom effect, at certain screen sizes parts of the map are cut off at certain points of the zoom. For the most part this isn't too problematic as the key centre of the map with surrounded Nobunaga is always shown, but it is visually distracting at certain screen sizes. I considered removing the zoom all together, but I felt even with some of the text being cut at certain screen sizes, the zoom effect was still good, and helped convey the point of being surrounded, so I kept it in.
 
 ## Credits
 
