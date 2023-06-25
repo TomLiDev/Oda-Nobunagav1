@@ -453,6 +453,7 @@ a:hover {
 
     #battle1-image {
         float: none;
+        padding-left: 0;
     }
 
     #battle1-container {
@@ -477,6 +478,7 @@ a:hover {
         padding-top: 0px;
         padding-bottom: 30px;
         height: 400px;
+        padding-right: 0px;
     }
 
     #betrayal-image {
