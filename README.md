@@ -4,7 +4,9 @@
 
 This project was intended to provide engaging and useful information for audiences interested in learning about early Japanese history, feudal systems and the origins of the samurai by telling the story of Oda Nobunaga. Nobunaga is a key figure in Japanese history and many of the most characteristic traits of Japanese culture have been influenced in some way by his life. The story of Nobunaga is historically important, but also provides context and understanding on the origins of many aspects of Japanese life and modern culture. His story itself is exciting and often brutal, with plenty of rich detail to draw on.
 
-This website was intended to give a level of detail that would appeal to history enthusiasts, but also be presented in an accessible, easy to navigate fashion so that newcomers to the information would be drawn in and want to keep exploring and learning more.
+This website was intended to give a level of detail that would appeal to history enthusiasts, but also be presented in an accessible, easy to navigate fashion so that newcomers to the information would be drawn in and want to keep exploring and learning more. I chose this as the subject for this site as I personally find it very interesting and I also feel the timeline of events lends itself well to a natural progression of content to keep a user interested and engaged.
+
+![An image of the finished website on different devices](documentation/readme-intro.png)
 
 ## User Stories
 
@@ -132,6 +134,6 @@ Credit for video code section on how to make it work from Youtube
 
 ### Content
 
-The bulk of the text information largely came from Wikipedia, although many of the sections summaries were written by myself. 
+The bulk of the text information largely came from Wikipedia, although many of the sections summaries were written by myself.
 The images came from Wikipedia
 The maps largely came from the ... website
