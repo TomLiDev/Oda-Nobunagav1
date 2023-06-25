@@ -8,6 +8,10 @@ This website was intended to give a level of detail that would appeal to history
 
 ![An image of the finished website on different devices](documentation/readme-intro.png)
 
+Please use the link below to view the live, deployed site:
+
+[Oda Nobunaga Live Site](https://tomlidev.github.io/project1v2/)
+
 ## User Stories
 
 ### First Time Visitors
