@@ -97,3 +97,15 @@ It would also have been fantastic to incorporate animation into the homepage, so
 All images have alt text attributes and all anchors have aria labels for use by screen readers. Careful consideration was given to the colour scheme to ensure a good level of contrast was maintained for text across the site.
 
 SOMETHING ON THE FONT? DYSLEXIA FRIENDLY FONT?
+
+## Technologies Used 
+
+### Languages Used
+
+HTML and CSS where used.
+
+### Libraries and External Sources
+
+git, Github, code anywhere, Balsamiq for wireframes TABLE
+
+Font awesome
