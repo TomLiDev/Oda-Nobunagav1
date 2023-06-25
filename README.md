@@ -98,7 +98,7 @@ All images have alt text attributes and all anchors have aria labels for use by 
 
 SOMETHING ON THE FONT? DYSLEXIA FRIENDLY FONT?
 
-## Technologies Used 
+## Technologies Used
 
 ### Languages Used
 
@@ -109,3 +109,7 @@ HTML and CSS where used.
 git, Github, code anywhere, Balsamiq for wireframes TABLE
 
 Font awesome
+
+## Deployment
+
+This was website was deployed using Github pages.
