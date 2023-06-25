@@ -245,10 +245,24 @@ The W3C validator was used to validate all HTML pages and CSS in the style.css.
 
 ### Code Used
 
-Credit for video code section on how to make it work from Youtube
+The following sites were used for code on embedding the YouTube video:
+
+https://www.w3schools.com/html/html_youtube.asp
+https://stackoverflow.com/questions/32426401/embeded-youtube-video-error
 
 ### Content
 
-The bulk of the text information largely came from Wikipedia, although many of the sections summaries were written by myself.
-The images came from Wikipedia
-The maps largely came from the ... website
+The bulk of the text information came from Wikipedia, although many of the sections summaries were written by the website author Tom Litchfield. The images came from Wikipedia.
+
+https://en.wikipedia.org/wiki/Oda_Nobunaga
+https://en.wikipedia.org/wiki/Sengoku_period
+
+The maps came from the following sites:
+
+https://www.edmaps.com/html/japan.html
+[Legacy Map](https://www.nippon.com/en/japan-topics/b06905/oda-nobunaga-and-the-struggle-to-unify-japan.html)
+
+## Acknowledgements
+
+- Graeme Taylor - My Code Institute Mentor
+- My family - For your help in testing and giving feedback on my first website.
