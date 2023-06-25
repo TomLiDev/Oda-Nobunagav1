@@ -536,6 +536,7 @@ a:hover {
         display: flex;
         flex-direction: column;
         align-items: center;
+        padding: 0;
     }
 
     #menu a {
@@ -718,5 +719,4 @@ a:hover {
 
     }
 
-}
 }
