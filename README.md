@@ -113,3 +113,15 @@ Font awesome
 ## Deployment
 
 This was website was deployed using Github pages.
+
+## Local Development
+
+How to fork
+
+How to clone
+
+## Testing
+
+See seperate testing.md
+
+## Credits
