@@ -83,3 +83,17 @@ Below this, above the footer, is the Unification of Japan section which gives fu
 The legacy page is comprised of 2 vertically seperate sections. The first is split with text on the left and an image on the right of Nobunagas betrayal and assasination.
 
 Below this is the final content section detailing Nobunagas legacy and ongoing historical significance. In this section the map to the left of the text takes up half of the section and shows the total territoy eventually conquered by Nobunaga and his ally. I wanted this image ot be large, partly so the legend of the map is readable, but also to show clearly the extent of conquest from his starting point.
+
+## Future Implementations/Plans
+
+In the future I would like to incorporate more video elements on the fighting styles and tactics introduced by Nobunaga as I feel these would broaden the audience of the website and make the other content more alluring.
+
+There are so many signficant individuals and events in this story it is difficult to balance including detail, with keeping the view uncluttered and easy to navigate. Incorporating more links in the text sections themselves would help with this, as it would facilitate navigation directly to those people/events.
+
+It would also have been fantastic to incorporate animation into the homepage, so that when the user scrolls down to the characters section, these actually appeared on screen at that time, as if they were being painted on as the user scrolled down.
+
+### Accessibility
+
+All images have alt text attributes and all anchors have aria labels for use by screen readers. Careful consideration was given to the colour scheme to ensure a good level of contrast was maintained for text across the site.
+
+SOMETHING ON THE FONT? DYSLEXIA FRIENDLY FONT?
