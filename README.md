@@ -23,3 +23,17 @@ As a user who is interested in history I want to be able to understand how Oda N
 ### Samurai/Military Enthusiast User
 
 As a user who is interested in learning more about the samurai I want quick, easy access to this specific content so I can determine how/why Nobunaga is important in their story. I am less likely to readily engage with large sections of text so eye catching images/graphical content on the weaponry, tactics, battles etc of samurai will be needed to draw me in.
+
+## Design
+
+### Colour Scheme
+
+I wanted a striking, eye catching colour scheme that drew the user in and made images stand out, whilst also providing good contrast between text/headers and backgrounds for easy navigation. 
+
+Many of the images I used for the project are digital copies of original Japanese artwork produced at the time, paintings on parchment and similar materials, which had a straw-like yellow/faded white colour to them. I used this colour as the background for many of the site pages, and it worked well blending the background images and giving contrast for headings and text. I also used the same colour for the font on the nav bar items, to provide consistency and I think it looks better here than plain white.
+
+INSERT IMAGE 
+
+For the section on the homepage where Japanese characters are used I decided to keep the background pure white as this gave better contrast between the characters. It also helped to act as something of a page break from the hero image.
+
+I toyed with the idea of using bold red text on the white, to match the Japanese flag, but felt this looked to garish.
