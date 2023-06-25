@@ -125,3 +125,13 @@ How to clone
 See seperate testing.md
 
 ## Credits
+
+### Code Used
+
+Credit for video code section on how to make it work from Youtube
+
+### Content
+
+The bulk of the text information largely came from Wikipedia, although many of the sections summaries were written by myself. 
+The images came from Wikipedia
+The maps largely came from the ... website
