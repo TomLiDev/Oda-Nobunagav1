@@ -413,18 +413,25 @@ a:hover {
     font-size: 150%;
 }
 
-#form input {
+.form-inputs {
     height: 30px;
     vertical-align: middle;
 }
 
 #form label {
-    padding-top: 20px;
+    padding-top: 10px;
     vertical-align: middle;
 }
 
 #form h4 {
     padding-bottom: 10px;
+}
+
+#submit {
+    height: 60px;
+    font-size: 100%;
+    background-color: black;
+    color: rgba(224, 224, 200, 0.9);
 }
 
 /* Media Queries */
