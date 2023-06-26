@@ -699,7 +699,9 @@ a:hover {
         height: 450px;
     }
 
-
+    #page404-text {
+        font-size: 100%;
+    }
 
     /* For smallest mobile screens */
 
@@ -742,6 +744,10 @@ a:hover {
         #legacy-map {
             width: 300px;
             height: auto;
+        }
+
+        #page404-text {
+            font-size: 80%;
         }
 
     }
