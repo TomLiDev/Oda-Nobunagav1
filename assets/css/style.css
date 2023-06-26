@@ -750,6 +750,10 @@ a:hover {
         font-size: 100%;
     }
 
+    #form {
+        font-size: 120%;
+    }
+
     /* For smallest mobile screens */
 
     @media screen and (max-width: 500px) {
@@ -799,6 +803,10 @@ a:hover {
 
         .error-thankyou-text {
             font-size: 80%;
+        }
+
+        #form {
+            font-size: 100%;
         }
 
     }
