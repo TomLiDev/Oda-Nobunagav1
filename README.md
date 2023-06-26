@@ -135,6 +135,10 @@ The legacy page is comprised of 2 vertically seperate sections. The first is spl
 
 Below this is the final content section detailing Nobunagas legacy and ongoing historical significance. In this section the map to the left of the text takes up half of the section and shows the total territoy eventually conquered by Nobunaga and his ally. I wanted this image ot be large, partly so the legend of the map is readable, but also to show clearly the extent of conquest from his starting point.
 
+### Sign Up Form
+
+The sign up form is the call to action of the site and gives a mechanism for additional information in the future, which will act to encourage repeat visits.
+
 ## Future Implementations/Plans
 
 In the future I would like to incorporate more video elements on the fighting styles and tactics introduced by Nobunaga as I feel these would broaden the audience of the website and make the other content more alluring.
