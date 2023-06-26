@@ -372,7 +372,7 @@ a:hover {
 
 #page404-main {
     background-color: rgba(224, 224, 200, 0.7);
-    height: 600px;
+    height: 650px;
     width: auto;
     justify-content: center;
     display: flex;
@@ -386,6 +386,16 @@ a:hover {
     text-decoration: none;
     font-size: 150%;
 }
+
+#page404-text a {
+    color: black;
+}
+
+#page404-text a:hover {
+    text-decoration: underline solid black;
+}
+
+
 
 /* Media Queries */
 
