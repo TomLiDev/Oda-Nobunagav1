@@ -416,6 +416,7 @@ a:hover {
 .form-inputs {
     height: 30px;
     vertical-align: middle;
+    font-size: 90%;
 }
 
 #form label {
@@ -432,6 +433,11 @@ a:hover {
     font-size: 100%;
     background-color: black;
     color: rgba(224, 224, 200, 0.9);
+}
+
+#submit:hover {
+    text-decoration: underline solid rgba(224, 224, 200, 0.9);
+    border: solid rgba(224, 224, 200, 0.9);
 }
 
 /* Media Queries */
