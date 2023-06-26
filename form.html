@@ -38,16 +38,31 @@
 
     <!--Main Form section-->
 
-    <section id="form">
-        <form>
+    <section id="form-main">
+        <form id="form">
             <label for="fname">First Name</label>
             <input type="text" name="lname" id="lname">
             <label for="lname">Last Name</label>
             <input type="text" name="lname" id="lname">
-            <label for="choices">Please select which topics you'd like to recieve information for</label>
-            <input type="checkbox" name="choices" id="choices">
+
+            <div>
+                <h3>Please select subjects of interest</h3>
+                <input type="checkbox" id="first-choice" name="first-choice" value="early-life">
+                <label for="first-choice">Nobunagas Early Life</label><br>
+                <input type="checkbox" id="second-choice" name="second-choice" value="rise">
+                <label for="second-choice">Nobunagas Reign</label><br>
+                <input type="checkbox" id="third-choice" name="third-choice" value="legacy">
+                <label for="third-choice">Nobunagas Lasting Legacy</label><br>
+                <input type="checkbox" id="fourth-choice" name="fourth-choice" value="samurai">
+                <label for="fourth-choice">Samurai</label><br>
+                <input type="checkbox" id="fifth-choice" name="fifth-choice" value="early-firearms">
+                <label for="fifth-choice">Early use of firearms</label><br>
+            </div>
+
             <label for="email">Please enter your email address</label>
             <input type="email" name="email" id="email">
+            <br>
+            <input type="submit" value="Submit!">
         </form>
     </section>
 
