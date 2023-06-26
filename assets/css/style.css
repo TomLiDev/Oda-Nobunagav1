@@ -368,6 +368,25 @@ a:hover {
     padding-top: 5%;
 }
 
+/* Styling for 404 page */
+
+#page404-main {
+    background-color: rgba(224, 224, 200, 0.7);
+    height: 600px;
+    width: auto;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#page404-text {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    font-size: 150%;
+}
+
 /* Media Queries */
 
 /* For large/medium screens */
