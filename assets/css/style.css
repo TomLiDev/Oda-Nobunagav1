@@ -387,11 +387,11 @@ a:hover {
     font-size: 150%;
 }
 
-#page404-text a {
+.error-thankyou-text a {
     color: black;
 }
 
-#page404-text a:hover {
+.error-thankyou-text a:hover {
     text-decoration: underline solid black;
 }
 
@@ -699,7 +699,11 @@ a:hover {
         height: 450px;
     }
 
-    #page404-text {
+    .error-thankyou-pages {
+        height: 400px;
+    }
+
+    .error-thankyou-text {
         font-size: 100%;
     }
 
@@ -746,7 +750,11 @@ a:hover {
             height: auto;
         }
 
-        #page404-text {
+        .error-thankyou-pages {
+            height: 300px;
+        }
+
+        .error-thankyou-text {
             font-size: 80%;
         }
 
