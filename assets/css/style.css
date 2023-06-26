@@ -413,6 +413,20 @@ a:hover {
     font-size: 150%;
 }
 
+#form input {
+    height: 30px;
+    vertical-align: middle;
+}
+
+#form label {
+    padding-top: 20px;
+    vertical-align: middle;
+}
+
+#form h4 {
+    padding-bottom: 10px;
+}
+
 /* Media Queries */
 
 /* For large/medium screens */
