@@ -141,6 +141,18 @@ The sign up form is the call to action of the site and gives a mechanism for add
 
 ![An image of the sign up form shown on different devices](documentation/form-page-devices.PNG)
 
+### Thank you page
+
+A response page for users to see and confirm that they have successfully signed up the newsletter was added. This page includes a link back to the home page and an automatic refresh every 10 seconds.
+
+![An image of the Thank you page on different devices](documentation/thankyou-page-devices.PNG)
+
+### 404 Error Page
+
+A simple, responsive customised 404 page was built with a link to redirect the user back to the home page.
+
+![An image of the 404 erorr page on different devices](documentation/404-page-devices.PNG)
+
 ## Future Implementations/Plans
 
 In the future I would like to incorporate more video elements on the fighting styles and tactics introduced by Nobunaga as I feel these would broaden the audience of the website and make the other content more alluring.
