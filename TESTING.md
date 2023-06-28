@@ -91,6 +91,28 @@ Google chrome Lighthouse tester was used to assess SEO score, acccessibility, co
 
 ![Screenshot of 404 page mobile lighthouse scores](documentation/404-lighthouse-mobile.PNG)
 
+#### Findings and Actions
+
+Overall I am very pleased with the Lighthouse scores for my pages. Some of the first pages had lower scores on performance, this is due to there being more jpegs in these pages before I started using webp formats. I did explore swapping these, particularly on the background on the homepage, but whilst changing the images was relatively easy, recreating the styling for each image would simply be too time consuming with the project deadline.
+
+The thankyou page also has a lower accessibilty score than the other pages, which are consistently very high. This is due to the automatic refresh on the page, which could damage the experience of that page for a user who was accessing through a screen reader or similar software. I wanted to keep this auto refresh in as I think its a nice feature to bring the user back to the home page, however I increased the time this would happen from 10 to 30 seconds. Although this did not improve the accessibility score, as the meta attribute was still present, it would in practice give a user more time to tab through the text before the screen was refreshed.
+
+In the future I would look to replace all the images with webp format images as this would address most of the performance issues which impact the scores.
+
+### WAVE Testing
+
+Each page was assessed using the WAVE accessibility tool. Every page passed without any errors, please use the links below to view the scores for each page:
+
+[Homepage WAVE Test](documentation/index-wave.PNG)
+[Rise page WAVE Test](documentation/rise-wave.PNG)
+[Reign page WAVE Test](documentation/reign-wave.PNG)
+[Legacy page WAVE Test](documentation/legacy-wave.PNG)
+[Form page WAVE Test](documentation/form-wave.PNG)
+[Thankyou page WAVE Test](documentation/thankyou-wave-error.PNG)
+[404 page WAVE Test](documentation/404-wave.PNG)
+
+During this testing the auto-refresh on the thank you page was declared as an error. Because of this, and the impact on accessibility score also seen in Lighthouse testing, I decided to remove the automatic refresh. The page includes a clickable link back the homepage anyway, so the requirement for a user to continue using the site is still met. Whilst this is slightly more seamless with the automatic redirect, with the impact on accessibility and user experience, I felt removing the automatic refresh was the best approach.
+
 ## Bugs
 
 ### Solved Bugs
