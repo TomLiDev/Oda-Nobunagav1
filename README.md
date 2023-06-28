@@ -34,13 +34,11 @@ As a first time visitor I want to find out more about Oda Nobunaga to understand
 As a return visitor I have taken on board some information on Nobunaga already and now want to find information on a particular influence/time/event in his life. I want to be able to navigate to this quickly and easily so I am not forced to re-read content and be presented with new information quickly.
 I want a mechanism to keep me informed on a particular aspect of Nobunagas life/times.
 
-#### History Enthusiast User
+#### Military History/Samurai Enthusiast User
 
-As a user who is interested in history I want to be able to understand how Oda Nobunaga fits in with broader Japanese history whilst also be able to quickly understand timelines, phases and dates of specific events in line with the study of history. I also want access to deeper, richer historical detail on Nobunaga so I can determine for myself how important or unique he may be.
-
-#### Samurai/Military Enthusiast User
-
-As a user who is interested in learning more about the samurai I want quick, easy access to this specific content so I can determine how/why Nobunaga is important in their story. I am less likely to readily engage with large sections of text so eye catching images/graphical content on the weaponry, tactics, battles etc of samurai will be needed to draw me in.
+As a user who is interested in military history I want to be able to understand how Oda Nobunaga fits in with broader Japanese history whilst also be able to quickly understand timelines, phases and dates of specific events in line with the study of history.
+I also want access to deeper, richer historical detail on Nobunaga so I can determine for myself how important or unique he may be.
+I want quick, easy access to this specific content so I can determine how/why Nobunaga is important in their story. Eye catching images/graphical content on the weaponry, tactics, battles etc of samurai will be needed to draw me in.
 
 ## Design
 

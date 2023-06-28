@@ -134,6 +134,13 @@ During this testing the auto-refresh on the thank you page was declared as an er
 | Quickly navigate to specific content on Nobunaga without navigating through site | Every page has a consistent display of a nav bar in the top right to allow users to quickly navigate to a particular time period of interest. Within these pages are clearly structured and styled to seperate relevant text/images relating to specific time periods. Dates/time are highlighted with a particular styling rule to make them particularly obvious to aid navigation. |     |
 | Mechanism to learn more/keep me updated on particular subject                    | Every page has a call to action to sign up to the website newsletter, within this there is the option to select particular areas of interest.                                                                                                                                                                                                                                         |
 
+#### History/Samurai Enthusiast
+
+| Aim                                                         | How does the site achieve this?                                                                                                                                                                                                        |
+| :---------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Navigate quickly and easily to military and similar content | Within each page images are used to signpost which sections hold text content on military units/battles/castles/tactics etc. This allows a user to quickly visually identify which elements are likely to be of most interest to them. |
+| Stay informed on specific military aspects                  | Every story content page has a call to action to prompt the user to sign up to the newsletter, within this there is the option to select these specific topics and stay updated.                                                       |
+
 ### Bugs
 
 ### Solved Bugs
