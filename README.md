@@ -149,7 +149,7 @@ The sign up form is the call to action of the site and gives a mechanism for add
 
 ### Thank you page
 
-A response page for users to see and confirm that they have successfully signed up the newsletter was added. This page includes a link back to the home page and an automatic refresh every 10 seconds.
+A response page for users to see and confirm that they have successfully signed up the newsletter was added. This page was originally built with an automatic refresh every 10 seconds, this was later increased to 30 seconds, and then finally removed altogether. The reasons behind this are explained in the testing.md. Instead a clickable link back to the homepage is included to facilitate return to the main site and continued use.
 
 ![An image of the Thank you page on different devices](documentation/thankyou-page-devices.PNG)
 
