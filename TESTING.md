@@ -120,11 +120,19 @@ During this testing the auto-refresh on the thank you page was declared as an er
 
 #### First Time Visitors
 
-| Aim                                   | How does the site achieve this?                                                                                                                |
-| :------------------------------------ | :--------------------------------------------------------------------------------------------------------------------------------------------- |
-| Find out more about Oda Nobunaga      | Each page has tailored content on Nobunaga for different parts of his life                                                                     |
-| Are they key facts presented clearly? | Dates and key events are highlighted as titles/sub titles with specific styling to make them stand out and aid navigation                      |
-| Use information for research          | Text and images can be copied and used freely, links to other sites such as youtube for the video provide other avenues for continued research |
+| Aim                                             | How does the site achieve this?                                                                                                                |
+| :---------------------------------------------- | :--------------------------------------------------------------------------------------------------------------------------------------------- |
+| Find out more about Oda Nobunaga                | Each page has tailored content on Nobunaga for different parts of his life                                                                     |
+| Are they key facts presented clearly?           | Dates and key events are highlighted as titles/sub titles with specific styling to make them stand out and aid navigation                      |
+| Use information for research                    | Text and images can be copied and used freely, links to other sites such as youtube for the video provide other avenues for continued research |
+| Mechanism to remind me to return and learn more | Every page has a call to action for the user to sign up to the newsletter to keep engaged/learning more in the future                          |
+
+#### Return Visitor
+
+| Aim                                                                              | How does the site achieve this?                                                                                                                                                                                                                                                                                                                                                       |
+| :------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | --- |
+| Quickly navigate to specific content on Nobunaga without navigating through site | Every page has a consistent display of a nav bar in the top right to allow users to quickly navigate to a particular time period of interest. Within these pages are clearly structured and styled to seperate relevant text/images relating to specific time periods. Dates/time are highlighted with a particular styling rule to make them particularly obvious to aid navigation. |     |
+| Mechanism to learn more/keep me updated on particular subject                    | Every page has a call to action to sign up to the website newsletter, within this there is the option to select particular areas of interest.                                                                                                                                                                                                                                         |
 
 ### Bugs
 

@@ -27,11 +27,12 @@ Key Information:
 
 #### First Time Visitors
 
-As a first time visitor I want to find out more about Oda Nobunaga to understand how and why he is important in Japanese history. I want the main facts about him presented clearly so I can decide if his story is one I want to learn about. I want to use the information to add to my own research on a specific element of Japanese history, or to understand Japanese culture more broadly.
+As a first time visitor I want to find out more about Oda Nobunaga to understand how and why he is important in Japanese history. I want the main facts about him presented clearly so I can decide if his story is one I want to learn about. I want to use the information to add to my own research on a specific element of Japanese history, or to understand Japanese culture more broadly. I want a mechanism to keep me informed and remind me to revisit the site for more information.
 
 #### Return Visitor
 
 As a return visitor I have taken on board some information on Nobunaga already and now want to find information on a particular influence/time/event in his life. I want to be able to navigate to this quickly and easily so I am not forced to re-read content and be presented with new information quickly.
+I want a mechanism to keep me informed on a particular aspect of Nobunagas life/times.
 
 #### History Enthusiast User
 
