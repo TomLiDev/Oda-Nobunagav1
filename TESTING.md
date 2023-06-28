@@ -27,7 +27,9 @@ The W3C validator was used to validate all HTML pages and CSS in the style.css.
 - [Screenshot of rise page W3C Validated](documentation/rise-validated.PNG)
 - [Screenshot of reign page W3C Validated](documentation/reign-validated.PNG)
 - [Screenshot of legacy W3C Validated](documentation/legacy-validated.PNG)
--
+- [Screenshot of form page W3C Validated](documentation/form-validated.PNG)
+- [Screenshot of thank you page W3C Validated](documentation/thankyou-validated.PNG)
+- [Screenshot of 404 error page W3C Validated](ocumentation/404-validated.PNG)
 
 ### Solved Bugs
 
