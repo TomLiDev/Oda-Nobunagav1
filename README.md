@@ -83,6 +83,12 @@ Please use the links below to view the relevant wireframe.
 
 [Homepage Mobile Wireframe](https://share.balsamiq.com/c/kboxySvsPoZ6vGataXtcPX.png)
 
+[Rise Page Mobile Wireframe](https://share.balsamiq.com/c/pRRHV5QAdkH1ZwD97XFLDr.png)
+
+[Reign Page Mobile Wireframe](https://share.balsamiq.com/c/xgnLqqmHmFKpsLG5Rzr7hB.png)
+
+[Legacy Page Mobile Wireframe](https://share.balsamiq.com/c/h6eQVWLUi3Vt7jMPAzWmto.png)
+
 [404/Thank you page, Desktop and Mobile Wireframe](https://share.balsamiq.com/c/tzDT9VJSwPWJCvZkviFija.png)
 
 [Form page Desktop and Mobile Wireframe](https://share.balsamiq.com/c/8oWTJvxPUwHagAJNFR4EmU.png)
