@@ -103,17 +103,32 @@ In the future I would look to replace all the images with webp format images as 
 
 Each page was assessed using the WAVE accessibility tool. Every page passed without any errors, please use the links below to view the scores for each page:
 
-[Homepage WAVE Test](documentation/index-wave.PNG)
-[Rise page WAVE Test](documentation/rise-wave.PNG)
-[Reign page WAVE Test](documentation/reign-wave.PNG)
-[Legacy page WAVE Test](documentation/legacy-wave.PNG)
-[Form page WAVE Test](documentation/form-wave.PNG)
-[Thankyou page WAVE Test](documentation/thankyou-wave-error.PNG)
-[404 page WAVE Test](documentation/404-wave.PNG)
+- [Homepage WAVE Test](documentation/index-wave.PNG)
+- [Rise page WAVE Test](documentation/rise-wave.PNG)
+- [Reign page WAVE Test](documentation/reign-wave.PNG)
+- [Legacy page WAVE Test](documentation/legacy-wave.PNG)
+- [Form page WAVE Test](documentation/form-wave.PNG)
+- [Thankyou page WAVE Test with automatic refresh](documentation/thankyou-wave-error.PNG)
+- [Thankyou page with refresh removed](documentation/thankyou-wave-fixed.PNG)
+- [404 page WAVE Test](documentation/404-wave.PNG)
 
 During this testing the auto-refresh on the thank you page was declared as an error. Because of this, and the impact on accessibility score also seen in Lighthouse testing, I decided to remove the automatic refresh. The page includes a clickable link back the homepage anyway, so the requirement for a user to continue using the site is still met. Whilst this is slightly more seamless with the automatic redirect, with the impact on accessibility and user experience, I felt removing the automatic refresh was the best approach.
 
-## Bugs
+## Manual Testing
+
+### Testing User Stories
+
+#### First Time Visitors
+
+| Aim | How does the site achieve this? |
+| :-: | :-----------------------------: |
+
+| Find out more about Oda Nobunaga | Each page has tailored content on Nobunaga for different parts of his life |
+| Are they key facts presented clearly? | Dates and key events are highlighted as titles/sub titles with specific styling to make them stand out and aid navigation |
+| Use information for research | Text and images can be copied and used freely, links to other sites such as youtube for the video provide other avenues for continued research |
+| :------------------------------- | :------------------------------------------------------------------------- |
+
+### Bugs
 
 ### Solved Bugs
 
