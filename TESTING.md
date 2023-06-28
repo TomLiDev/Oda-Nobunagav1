@@ -31,6 +31,10 @@ The W3C validator was used to validate all HTML pages and CSS in the style.css.
 - [Screenshot of thank you page W3C Validated](documentation/thankyou-validated.PNG)
 - [Screenshot of 404 error page W3C Validated](ocumentation/404-validated.PNG)
 
+### Lighthouse Testing
+
+## Bugs
+
 ### Solved Bugs
 
 1. Navbar elements - The navbar elements were challenging to keep centered, particularly in creating the vertical display of items for smaller device screens. My mentor suggested using Flexbox instead of floats/padding and this provided a much simpler way to switch the row into a column at a particular pixel screen size. Some final fine tuning in removing padding at smaller screen sizes keeps the items centered.
