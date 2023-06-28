@@ -108,6 +108,10 @@ Every page has the same footer bar comprising icon links to Facebook, Instagram,
 
 ![Image of the footer, found at the bottom of all pages](documentation/footer.PNG)
 
+#### Sign Up
+
+The homepage and each of the story pages have the prompt at the bottom, above the crest and footer, to sign up to the sites newsletter. This is a link which, when clicked will redirect the user to fill out a form and stay informed. Originally this feature just had underlining on hover, but I wanted to make it look more button when hovering so I added the border to create this effect and make the link stand out more. The unusual border radius on the sign up border is deliberate, I felt a plain rectangular border was not interesting enough so I experimented with the radius and am very pleased with the slight radius effect. This acts to thin the border at its corners, giving almost a 'slice' like appearance which matches very nicely with the Japanese characters and overall theme of the site.
+
 ### Homepage
 
 On the homepage the user is presented with the hero image of Oda Nobunaga with a stap-line text section appearing in the top left as a very brief explanation of what the site is about. Below this are the 3 Japanese characters representing Rise, Reign and Legacy, showing the relevant years of these phases of Nobunaga's life and a brief text explanation of the time period. The character and time sub heading are wrapped in anchor which also links the user to the relevant page. This section acts as a secondary prompt to explore another page of the site through visually appealing links, with more explanation of these pages for a user who is more detail-focused.
