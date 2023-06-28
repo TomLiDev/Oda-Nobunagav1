@@ -169,6 +169,35 @@ Google chrome developer tools was also used to text at a range of different pixe
 
 Testing was conducted using Google Chrome, MS Edge and Safari.
 
+### Homepage
+
+| Feature/Function            | Expected Outcome                                                                                                    | Method of Test           | Result                                          | Pass/Fail |
+| :-------------------------- | :------------------------------------------------------------------------------------------------------------------ | :----------------------- | :---------------------------------------------- | :-------- |
+| NAVBAR                      |                                                                                                                     |                          |                                                 |
+| Oda Nobunaga Link           | Underline appears on hover. Return/refresh home page on click                                                       | Hovered and clicked link | Hovered. Returned to home                       | Pass      |
+| RISE Link                   | Underline appears on hover. Return/refresh to Rise page on click                                                    | Hovered and clicked link | Hovered. Returned to Rise page                  | Pass      |
+| REIGN Link                  | Underline appears on hover. Return/refresh to Reign page on click                                                   | Hovered and clicked link | Hovered. Returned to Reign page                 | Pass      |
+| LEGACY Link                 | Underline appears on hover. Return/refresh to Legacy page on click                                                  | Hovered and clicked link | Hovered. Returned to Legacy page                | Pass      |
+| FOOTER                      |                                                                                                                     |                          |                                                 |
+| Facebook Icon Link          | Opens Facebook in seperate browser on click                                                                         | Clicked icon             | Opened Facebook in seperate tab                 | Pass      |
+| Instagram Icon Link         | Opens Instagram in seperate browser on click                                                                        | Clicked icon             | Opened Instagram in seperate tab                | Pass      |
+| Twitter Icon Link           | Opens Twitter in seperate browser on click                                                                          | Clicked icon             | Opened Twitter in seperate tab                  | Pass      |
+| Linkedin Icon Link          | Opens Linkedin in seperate browser on click                                                                         | Clicked icon             | Opened Linkedin in seperate tab                 | Pass      |
+| HOMEPAGE                    |                                                                                                                     |                          |                                                 |
+| Rise Character Link         | When clicked user will be redirected to Rise page                                                                   | Clicked link             | Redirected to Rise page                         | Pass      |
+| Rise Character Link Hover   | When hovering over Rise page link a black border will be displayed around the character and date immediatly below   | Hover over link          | Black border appeared around character and date | Pass      |
+| Reign Character Link        | When clicked user will be redirected to Reign page                                                                  | Clicked link             | Redirected to Reign page                        | Pass      |
+| Reign Character Link Hover  | When hovering over Reign page link a black border will be displayed around the character and date immediatly below  | Hover over link          | Black border appeared around character and date | Pass      |
+| Legacy Character Link       | When clicked user will be redirected to Legacy page                                                                 | Clicked link             | Redirected to Legacy page                       | Pass      |
+| Legacy Character Link Hover | When hovering over Legacy page link a black border will be displayed around the character and date immediatly below | Hover over link          | Black border appeared around character and date | Pass      |
+| FORM LINK                   |                                                                                                                     |                          |                                                 |           |
+| Sign Up Link                | When clicked the sign up link will redirect the user to the sign up form                                            | clicked link             | redirected to form                              | Pass      |
+| Sign Up Link Hover          | When hovering over sign up link the text will be underlined                                                         | Hover over link          | Underline appeared                              | Pass      |
+| VIDEO                       |                                                                                                                     |                          |                                                 |
+| Sign Up Link Hover          | When hovering over sign up link the text will be underlined                                                         | Hover over link          | Underline appeared                              | Pass      |
+
+### Rise Page
+
 | Feature/Function    | Expected Outcome                                                   | Method of Test           | Result                           | Pass/Fail |
 | :------------------ | :----------------------------------------------------------------- | :----------------------- | :------------------------------- | :-------- |
 | NAVBAR              |                                                                    |                          |                                  |
@@ -181,4 +210,111 @@ Testing was conducted using Google Chrome, MS Edge and Safari.
 | Instagram Icon Link | Opens Instagram in seperate browser on click                       | Clicked icon             | Opened Instagram in seperate tab | Pass      |
 | Twitter Icon Link   | Opens Twitter in seperate browser on click                         | Clicked icon             | Opened Twitter in seperate tab   | Pass      |
 | Linkedin Icon Link  | Opens Linkedin in seperate browser on click                        | Clicked icon             | Opened Linkedin in seperate tab  | Pass      |
-| HOMEPAGE            |                                                                    |                          |                                  |
+
+|
+| FORM LINK | | | | |
+| Sign Up Link | When clicked the sign up link will redirect the user to the sign up form | clicked link | redirected to form | Pass |
+| Sign Up Link Hover | When hovering over sign up link the text will be underlined | Hover over link | Underline appeared | Pass |
+
+### Reign Page
+
+| Feature/Function    | Expected Outcome                                                   | Method of Test           | Result                           | Pass/Fail |
+| :------------------ | :----------------------------------------------------------------- | :----------------------- | :------------------------------- | :-------- |
+| NAVBAR              |                                                                    |                          |                                  |
+| Oda Nobunaga Link   | Underline appears on hover. Return/refresh home page on click      | Hovered and clicked link | Hovered. Returned to home        | Pass      |
+| RISE Link           | Underline appears on hover. Return/refresh to Rise page on click   | Hovered and clicked link | Hovered. Returned to Rise page   | Pass      |
+| REIGN Link          | Underline appears on hover. Return/refresh to Reign page on click  | Hovered and clicked link | Hovered. Returned to Reign page  | Pass      |
+| LEGACY Link         | Underline appears on hover. Return/refresh to Legacy page on click | Hovered and clicked link | Hovered. Returned to Legacy page | Pass      |
+| FOOTER              |                                                                    |                          |                                  |
+| Facebook Icon Link  | Opens Facebook in seperate browser on click                        | Clicked icon             | Opened Facebook in seperate tab  | Pass      |
+| Instagram Icon Link | Opens Instagram in seperate browser on click                       | Clicked icon             | Opened Instagram in seperate tab | Pass      |
+| Twitter Icon Link   | Opens Twitter in seperate browser on click                         | Clicked icon             | Opened Twitter in seperate tab   | Pass      |
+| Linkedin Icon Link  | Opens Linkedin in seperate browser on click                        | Clicked icon             | Opened Linkedin in seperate tab  | Pass      |
+
+|
+| FORM LINK | | | | |
+| Sign Up Link | When clicked the sign up link will redirect the user to the sign up form | clicked link | redirected to form | Pass |
+| Sign Up Link Hover | When hovering over sign up link the text will be underlined | Hover over link | Underline appeared | Pass |
+| VIDEO |
+| Video play function | When clicked the video will play with audio | clicked play button | video started with audio | Pass |
+
+### Legacy Page
+
+| Feature/Function    | Expected Outcome                                                   | Method of Test           | Result                           | Pass/Fail |
+| :------------------ | :----------------------------------------------------------------- | :----------------------- | :------------------------------- | :-------- |
+| NAVBAR              |                                                                    |                          |                                  |
+| Oda Nobunaga Link   | Underline appears on hover. Return/refresh home page on click      | Hovered and clicked link | Hovered. Returned to home        | Pass      |
+| RISE Link           | Underline appears on hover. Return/refresh to Rise page on click   | Hovered and clicked link | Hovered. Returned to Rise page   | Pass      |
+| REIGN Link          | Underline appears on hover. Return/refresh to Reign page on click  | Hovered and clicked link | Hovered. Returned to Reign page  | Pass      |
+| LEGACY Link         | Underline appears on hover. Return/refresh to Legacy page on click | Hovered and clicked link | Hovered. Returned to Legacy page | Pass      |
+| FOOTER              |                                                                    |                          |                                  |
+| Facebook Icon Link  | Opens Facebook in seperate browser on click                        | Clicked icon             | Opened Facebook in seperate tab  | Pass      |
+| Instagram Icon Link | Opens Instagram in seperate browser on click                       | Clicked icon             | Opened Instagram in seperate tab | Pass      |
+| Twitter Icon Link   | Opens Twitter in seperate browser on click                         | Clicked icon             | Opened Twitter in seperate tab   | Pass      |
+| Linkedin Icon Link  | Opens Linkedin in seperate browser on click                        | Clicked icon             | Opened Linkedin in seperate tab  | Pass      |
+
+|
+| FORM LINK | | | | |
+| Sign Up Link | When clicked the sign up link will redirect the user to the sign up form | clicked link | redirected to form | Pass |
+| Sign Up Link Hover | When hovering over sign up link the text will be underlined | Hover over link | Underline appeared | Pass |
+
+### Form Page
+
+| Feature/Function      | Expected Outcome                                                                             | Method of Test                               | Result                                                  | Pass/Fail |
+| :-------------------- | :------------------------------------------------------------------------------------------- | :------------------------------------------- | :------------------------------------------------------ | :-------- |
+| NAVBAR                |                                                                                              |                                              |                                                         |
+| Oda Nobunaga Link     | Underline appears on hover. Return/refresh home page on click                                | Hovered and clicked link                     | Hovered. Returned to home                               | Pass      |
+| RISE Link             | Underline appears on hover. Return/refresh to Rise page on click                             | Hovered and clicked link                     | Hovered. Returned to Rise page                          | Pass      |
+| REIGN Link            | Underline appears on hover. Return/refresh to Reign page on click                            | Hovered and clicked link                     | Hovered. Returned to Reign page                         | Pass      |
+| LEGACY Link           | Underline appears on hover. Return/refresh to Legacy page on click                           | Hovered and clicked link                     | Hovered. Returned to Legacy page                        | Pass      |
+| FOOTER                |                                                                                              |                                              |                                                         |
+| Facebook Icon Link    | Opens Facebook in seperate browser on click                                                  | Clicked icon                                 | Opened Facebook in seperate tab                         | Pass      |
+| Instagram Icon Link   | Opens Instagram in seperate browser on click                                                 | Clicked icon                                 | Opened Instagram in seperate tab                        | Pass      |
+| Twitter Icon Link     | Opens Twitter in seperate browser on click                                                   | Clicked icon                                 | Opened Twitter in seperate tab                          | Pass      |
+| Linkedin Icon Link    | Opens Linkedin in seperate browser on click                                                  | Clicked icon                                 | Opened Linkedin in seperate tab                         | Pass      |
+| FORM ELEMENTS         |
+| First Name suggestion | When clicked, suggests options for names from previous forms                                 | Clicked field                                | Suggestions appeared                                    | Pass      |
+| First Name Validation | If not filled out, form will not allow submission                                            | Clicked submit form without first name       | Form didn't submit, prompted to fill out relevant field | Pass      |
+| Last Name suggestion  | When clicked, suggests options for names from previous forms                                 | Clicked field                                | Suggestions appeared                                    | Pass      |
+| Last Name Validation  | If not filled out, form will not allow submission                                            | Clicked submit form without last name        | Form didn't submit, prompted to fill out relevant field | Pass      |
+| Interest checkbox(es) | When clicked, checkbox will appear with a tick inside it                                     | Clicked checkboxes                           | Checkboxes displayed with tick inside                   | Pass      |
+| Email suggestion      | When clicked, suggests options for emails from previous forms                                | Clicked field                                | Suggestions appeared                                    | Pass      |
+| Email Validation      | If not filled out, form will not allow submission                                            | Clicked submit form without email filled out | Form didn't submit, prompted to fill out email field    | Pass      |
+| Submit                | When clicked, if required fields are filled out, redirects user to thankyou page             | Clicked with fields completed                | Redirected to thankyou page                             | Pass      |
+| Submit Hover          | When hovering mouse over submit button text will appear underlined with border around button | Hovered mouse over submit button             | Text appeared underlined, border appeared around button | Pass      |
+
+### Thankyou Page
+
+| Feature/Function          | Expected Outcome                                                   | Method of Test           | Result                           | Pass/Fail |
+| :------------------------ | :----------------------------------------------------------------- | :----------------------- | :------------------------------- | :-------- |
+| NAVBAR                    |                                                                    |                          |                                  |
+| Oda Nobunaga Link         | Underline appears on hover. Return/refresh home page on click      | Hovered and clicked link | Hovered. Returned to home        | Pass      |
+| RISE Link                 | Underline appears on hover. Return/refresh to Rise page on click   | Hovered and clicked link | Hovered. Returned to Rise page   | Pass      |
+| REIGN Link                | Underline appears on hover. Return/refresh to Reign page on click  | Hovered and clicked link | Hovered. Returned to Reign page  | Pass      |
+| LEGACY Link               | Underline appears on hover. Return/refresh to Legacy page on click | Hovered and clicked link | Hovered. Returned to Legacy page | Pass      |
+| FOOTER                    |                                                                    |                          |                                  |
+| Facebook Icon Link        | Opens Facebook in seperate browser on click                        | Clicked icon             | Opened Facebook in seperate tab  | Pass      |
+| Instagram Icon Link       | Opens Instagram in seperate browser on click                       | Clicked icon             | Opened Instagram in seperate tab | Pass      |
+| Twitter Icon Link         | Opens Twitter in seperate browser on click                         | Clicked icon             | Opened Twitter in seperate tab   | Pass      |
+| Linkedin Icon Link        | Opens Linkedin in seperate browser on click                        | Clicked icon             | Opened Linkedin in seperate tab  | Pass      |
+| THANKYOU LINK TO HOMEPAGE |
+| Link to homepage          | When clicked redirects user to homepage                            | Clicked link             | Redirected to homepage           | Pass      |
+| Hover on homepage link    | When hovering over text should be underlined with black line       | Hovered over link        | Black underline appeared         | Pass      |
+
+### 404 Error Page
+
+| Feature/Function       | Expected Outcome                                                   | Method of Test           | Result                           | Pass/Fail |
+| :--------------------- | :----------------------------------------------------------------- | :----------------------- | :------------------------------- | :-------- |
+| NAVBAR                 |                                                                    |                          |                                  |
+| Oda Nobunaga Link      | Underline appears on hover. Return/refresh home page on click      | Hovered and clicked link | Hovered. Returned to home        | Pass      |
+| RISE Link              | Underline appears on hover. Return/refresh to Rise page on click   | Hovered and clicked link | Hovered. Returned to Rise page   | Pass      |
+| REIGN Link             | Underline appears on hover. Return/refresh to Reign page on click  | Hovered and clicked link | Hovered. Returned to Reign page  | Pass      |
+| LEGACY Link            | Underline appears on hover. Return/refresh to Legacy page on click | Hovered and clicked link | Hovered. Returned to Legacy page | Pass      |
+| FOOTER                 |                                                                    |                          |                                  |
+| Facebook Icon Link     | Opens Facebook in seperate browser on click                        | Clicked icon             | Opened Facebook in seperate tab  | Pass      |
+| Instagram Icon Link    | Opens Instagram in seperate browser on click                       | Clicked icon             | Opened Instagram in seperate tab | Pass      |
+| Twitter Icon Link      | Opens Twitter in seperate browser on click                         | Clicked icon             | Opened Twitter in seperate tab   | Pass      |
+| Linkedin Icon Link     | Opens Linkedin in seperate browser on click                        | Clicked icon             | Opened Linkedin in seperate tab  | Pass      |
+| LINK TO HOMEPAGE       |
+| Link to homepage       | When clicked redirects user to homepage                            | Clicked link             | Redirected to homepage           | Pass      |
+| Hover on homepage link | When hovering over text should be underlined with black line       | Hovered over link        | Black underline appeared         | Pass      |
