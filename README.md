@@ -137,7 +137,9 @@ Below this is the final content section detailing Nobunagas legacy and ongoing h
 
 ### Sign Up Form
 
-The sign up form is the call to action of the site and gives a mechanism for additional information in the future, which will act to encourage repeat visits.
+The sign up form is the call to action of the site and gives a mechanism for additional information in the future, which will act to encourage repeat visits. Specifically a user is prompted to enter their details and select which topics they would like to be kept informed on from the newsletter, ensuring a consistent flow of relevant information from that point on.
+
+[An image of the sign up form shown on different devicesdocumentation/form-page-devices.PNG)
 
 ## Future Implementations/Plans
 
@@ -165,27 +167,6 @@ HTML and CSS where used.
 
 ### Libraries and External Sources
 
-- Git - Version control.
-- Github - To save and store code for the website itself.
-- Github pages - To deploy the live site.
-- Code anywhere - The workspace and IDE for producing the site.
-- Balsamiq - wireframes
-- Google fonts - For imported fonts
-- Font Awesome - For social media icons
-- Google Developer Tools - For troubleshooting/bug resolution and testing responsiveness
-- W3C Validators - For checking validity of HTML and CSS.
-- Am I Responsive? - To create images of website on range of device screens.
-
-## Deployment
-
-This was website was deployed using Github pages. Instructions to do this are:
-
-1. Log in (or sign up) to Github.
-2. Find the repository for this project, TomLiDev/Oda-Nobunagav1.
-3. Click on the Settings link.
-4. Click on the Pages link in the left hand side navigation bar.
-5. In the Source section, choose main from the drop down select branch menu. Select Root from the drop down select folder menu.
-6. Click Save. Your live Github Pages site is now deployed at the URL shown.
 
 ## Local Development
 

@@ -390,7 +390,7 @@ a:hover {
     padding-top: 5%;
 }
 
-/* Styling for 404 page */
+/* Styling for 404 and thankyou page */
 
 .error-thankyou-pages {
     background-color: rgba(224, 224, 200, 0.7);
@@ -777,7 +777,7 @@ a:hover {
         font-size: 120%;
     }
 
-    /* For smallest mobile screens */
+    /* For smallest mobile screens less than 500px*/
 
     @media screen and (max-width: 500px) {
         #one-liner {
