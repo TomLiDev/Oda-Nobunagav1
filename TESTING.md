@@ -120,19 +120,19 @@ During this testing the auto-refresh on the thank you page was declared as an er
 
 #### First Time Visitors
 
-| Aim                                             | How does the site achieve this?                                                                                                                |
-| :---------------------------------------------- | :--------------------------------------------------------------------------------------------------------------------------------------------- |
-| Find out more about Oda Nobunaga                | Each page has tailored content on Nobunaga for different parts of his life                                                                     |
-| Are they key facts presented clearly?           | Dates and key events are highlighted as titles/sub titles with specific styling to make them stand out and aid navigation                      |
-| Use information for research                    | Text and images can be copied and used freely, links to other sites such as youtube for the video provide other avenues for continued research |
-| Mechanism to remind me to return and learn more | Every page has a call to action for the user to sign up to the newsletter to keep engaged/learning more in the future                          |
+| Aim                                               | How does the site achieve this?                                                                                                                 |
+| :------------------------------------------------ | :---------------------------------------------------------------------------------------------------------------------------------------------- |
+| Find out more about Oda Nobunaga                  | Each page has tailored content on Nobunaga for different parts of his life.                                                                     |
+| Are they key facts presented clearly?             | Dates and key events are highlighted as titles/sub titles with specific styling to make them stand out and aid navigation.                      |
+| Use information for research                      | Text and images can be copied and used freely, links to other sites such as youtube for the video provide other avenues for continued research. |
+| Mechanism to remind user to return and learn more | Every page has a call to action for the user to sign up to the newsletter to keep engaged/learning more in the future.                          |
 
 #### Return Visitor
 
-| Aim                                                                              | How does the site achieve this?                                                                                                                                                                                                                                                                                                                                                       |
-| :------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Quickly navigate to specific content on Nobunaga without navigating through site | Every page has a consistent display of a nav bar in the top right to allow users to quickly navigate to a particular time period of interest. Within these pages are clearly structured and styled to seperate relevant text/images relating to specific time periods. Dates/time are highlighted with a particular styling rule to make them particularly obvious to aid navigation. |
-| Mechanism to learn more/keep me updated on particular subject                    | Every page has a call to action to sign up to the website newsletter, within this there is the option to select particular areas of interest.                                                                                                                                                                                                                                         |
+| Aim                                                                                | How does the site achieve this?                                                                                                                                                                                                                                                                                                                                                        |
+| :--------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Quickly navigate to specific content on Nobunaga without going through enitre site | Every page has a consistent display of a nav bar in the top right to allow users to quickly navigate to a particular time period of interest. Within these, pages are clearly structured and styled to seperate relevant text/images relating to specific time periods. Dates/time are highlighted with a particular styling rule to make them particularly obvious to aid navigation. |
+| Mechanism to learn more/keep me updated on particular subject                      | Every page has a call to action to sign up to the website newsletter, within this there is the option to select particular areas of interest.                                                                                                                                                                                                                                          |
 
 #### History/Samurai Enthusiast
 
@@ -143,7 +143,7 @@ During this testing the auto-refresh on the thank you page was declared as an er
 
 ### Bugs
 
-### Solved Bugs
+#### Solved Bugs
 
 1. Navbar elements - The navbar elements were challenging to keep centered, particularly in creating the vertical display of items for smaller device screens. My mentor suggested using Flexbox instead of floats/padding and this provided a much simpler way to switch the row into a column at a particular pixel screen size. Some final fine tuning in removing padding at smaller screen sizes keeps the items centered.
 
@@ -155,8 +155,23 @@ During this testing the auto-refresh on the thank you page was declared as an er
 
 5. 'Oneliner' - The Story of Japans First Great Unifier - Originally the homepage was just the hero background image below the header, however I felt this was stark and something was needed to break up the image and give an idea on what the website was about. To introduce and position the 'oneliner' section I had to add position attributes to the background to make the oneliner absolute. This introduced issues for responsiveness, however the alternative was to try and float the text, which was difficult over different screen sizes. So although the oneliner required quite a lot of styling for one small aspect of the site, due to its absolute position, I felt this was the most efficient route and am pleased with the end result.
 
-### Known Issues
+#### Known Issues
 
 1. On the homepage, the image for the legacy character, being actually 2 characters not 1, and a larger image just overlaps the black circle which is shown on hover for this link. This is a minor aethestic issue and has no a minor aspect on experince, the alternative to fix this would have meant having a larger circle and link for the legacy character, which would have been inconsistent and caused issues with the structure and styling.
 
 2. Map on Rise Page - This map has proven challenging to get displaying correclty on different screen sizes. To include the entire map on a desktop size screen requires the background-size to be set very small, less than 50%, which looks bad very quickly on any screens smaller than 'full' monitor size. Therefore the background-size increases as a percentage as screen size gets smaller, which keeps the map a good size on the screen itself whilst also loosely maintaining a focus for the map to show the centre, in which Nobunagas territory is surrounded by enemies, which is the whole point of the graphic. However, with the zoom effect, at certain screen sizes parts of the map are cut off at certain points of the zoom. For the most part this isn't too problematic as the key centre of the map with surrounded Nobunaga is always shown, but it is visually distracting at certain screen sizes. I considered removing the zoom all together, but I felt even with some of the text being cut at certain screen sizes, the zoom effect was still good, and helped convey the point of being surrounded, so I kept it in.
+
+## Full Testing
+
+Full testing of the website was performed on a Dell optiplex desktop on 25 inch Toshiba and Soundwave monitors, Dell Lattitude 5510 14 inch screen, iPad 8th generation, Samsung Galaxy S10, iPhone 14 pro.
+
+Google chrome developer tools was also used to text at a range of different pixel sizes.
+
+Testing was conducted using Google Chrome, MS Edge and Safari.
+
+| Feature/Function | Expected Outcome | Method of Test | Result | Pass/Fail |
+| NAVBAR |
+| Oda Nobunaga Link | Underline appears on hover. Return/refresh home page on click | Hovered and clicked link | Hovered. Returned to home | Pass |
+| RISE Link | Underline appears on hover. Return/refresh to Rise page on click | Hovered and clicked link | Hovered. Returned to Rise page | Pass |
+| REIGN Link | Underline appears on hover. Return/refresh to Reign page on click | Hovered and clicked link | Hovered. Returned to Reign page | Pass |
+| LEGACY Link | Underline appears on hover. Return/refresh to Legacy page on click | Hovered and clicked link | Hovered. Returned to Legacy page | Pass |
