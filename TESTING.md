@@ -35,59 +35,59 @@ The W3C validator was used to validate all HTML pages and CSS in the style.css.
 
 Google chrome Lighthouse tester was used to assess SEO score, acccessibility, conformance to best practices and overall performance. Please use the links below to view scores for each page on desktop or mobile:
 
-###### Homepage Desktop Lighthouse Scores
+#### Homepage Desktop Lighthouse Scores
 
 ![Screenshot of homepage desktop lighthouse scores](documentation/index-lighthouse.PNG)
 
-###### Homepage Mobile Lighthouse Scores
+#### Homepage Mobile Lighthouse Scores
 
 ![Screenshot of homepage mobile lighthouse scores](documentation/index-lighthouse-mobile.PNG)
 
-###### Rise Desktop Lighthouse Scores
+#### Rise Desktop Lighthouse Scores
 
 ![Screenshot of rise desktop lighthouse scores](documentation/rise-lighthouse.PNG)
 
-###### Rise Mobile Lighthouse Scores
+#### Rise Mobile Lighthouse Scores
 
 ![Screenshot of rise mobile lighthouse scores](documentation/rise-lighthouse-mobile.PNG)
 
-###### Reign Desktop Lighthouse Scores
+#### Reign Desktop Lighthouse Scores
 
 ![Screenshot of reign desktop lighthouse scores](documentation/reign-lighthouse.PNG)
 
-###### Reign Mobile Lighthouse Scores
+#### Reign Mobile Lighthouse Scores
 
 ![Screenshot of reign mobile lighthouse scores](documentation/reign-lighthouse-mobile.PNG)
 
-###### Legacy Desktop Lighthouse Scores
+#### Legacy Desktop Lighthouse Scores
 
 ![Screenshot of legacy desktop lighthouse scores](documentation/legacy-lighthouse.PNG)
 
-###### Legacy Mobile Lighthouse Scores
+#### Legacy Mobile Lighthouse Scores
 
 ![Screenshot of legacy mobile lighthouse scores](documentation/legacy-lighthouse-mobile.PNG)
 
-###### Form Desktop Lighthouse Scores
+#### Form Desktop Lighthouse Scores
 
 ![Screenshot of form desktop lighthouse scores](documentation/form-lighthouse.PNG)
 
-###### Form Mobile Lighthouse Scores
+#### Form Mobile Lighthouse Scores
 
 ![Screenshot of form mobile lighthouse scores](documentation/form-lighthouse-mobile.PNG)
 
-###### Thankyou Desktop Lighthouse Scores
+#### Thankyou Desktop Lighthouse Scores
 
 ![Screenshot of thank you page desktop lighthouse scores](documentation/thankyou-lighthouse.PNG)
 
-###### Thankyou Mobile Lighthouse Scores
+#### Thankyou Mobile Lighthouse Scores
 
 ![Screenshot of thank you page desktop lighthouse scores](documentation/thankyou-lighthouse-mobile.PNG)
 
-###### 404 Error Page Desktop Lighthouse Scores
+#### 404 Error Page Desktop Lighthouse Scores
 
 ![Screenshot of 404 page desktop lighthouse scores](documentation/404-lighthouse.PNG)
 
-###### 404 Error Page Mobile Lighthouse Scores
+#### 404 Error Page Mobile Lighthouse Scores
 
 ![Screenshot of 404 page mobile lighthouse scores](documentation/404-lighthouse-mobile.PNG)
 
