@@ -227,6 +227,8 @@ This was website was deployed using Github pages. Instructions to do this are:
 
 Please see seperate testing.md for full details.
 
+[Testing](TESTING.md)
+
 Testing was conducted at several stages throughout the development using Google Chrome Developer tools and later W3C validators.
 
 Early issues identified in meetings with my mentor were:
