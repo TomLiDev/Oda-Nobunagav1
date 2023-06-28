@@ -139,7 +139,7 @@ Below this is the final content section detailing Nobunagas legacy and ongoing h
 
 The sign up form is the call to action of the site and gives a mechanism for additional information in the future, which will act to encourage repeat visits. Specifically a user is prompted to enter their details and select which topics they would like to be kept informed on from the newsletter, ensuring a consistent flow of relevant information from that point on.
 
-[An image of the sign up form shown on different devices]documentation/form-page-devices.PNG)
+![An image of the sign up form shown on different devices](documentation/form-page-devices.PNG)
 
 ## Future Implementations/Plans
 
