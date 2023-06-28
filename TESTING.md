@@ -123,9 +123,9 @@ During this testing the auto-refresh on the thank you page was declared as an er
 |                  Aim                  |                                                        How does the site achieve this?                                                         |
 | :-----------------------------------: | :--------------------------------------------------------------------------------------------------------------------------------------------: |
 |   Find out more about Oda Nobunaga    |                                   Each page has tailored content on Nobunaga for different parts of his life                                   |
+|                  :--                  |                                                                      :--                                                                       |
 | Are they key facts presented clearly? |           Dates and key events are highlighted as titles/sub titles with specific styling to make them stand out and aid navigation            |
 |     Use information for research      | Text and images can be copied and used freely, links to other sites such as youtube for the video provide other avenues for continued research |
-|   :-------------------------------    |                                   :-------------------------------------------------------------------------                                   |
 
 ### Bugs
 
