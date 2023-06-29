@@ -75,13 +75,21 @@ Google chrome Lighthouse tester was used to assess SEO score, acccessibility, co
 
 ![Screenshot of form mobile lighthouse scores](documentation/form-lighthouse-mobile.PNG)
 
-#### Thankyou Desktop Lighthouse Scores
+#### Thankyou page Desktop Lighthouse Scores
 
 ![Screenshot of thank you page desktop lighthouse scores](documentation/thankyou-lighthouse.PNG)
 
-#### Thankyou Mobile Lighthouse Scores
+#### Thankyou page Mobile Lighthouse Scores
 
 ![Screenshot of thank you page desktop lighthouse scores](documentation/thankyou-lighthouse-mobile.PNG)
+
+#### Thankyou page Desktop Lighthouse Score with refresh removed
+
+![Screenshot of thank you page desktop lighthouse scores after the refresh had been removed](documentation/thankyou-lighthouse-norefresh-desktop.PNG)
+
+#### Thankyou page Mobile Lighthouse Score with refresh removed
+
+![Screenshot of thank you page mobile lighthouse scores after the refresh had been removed](documentation/thankyou-lighthouse-norefresh-mobile.PNG)
 
 #### 404 Error Page Desktop Lighthouse Scores
 
@@ -96,6 +104,7 @@ Google chrome Lighthouse tester was used to assess SEO score, acccessibility, co
 Overall I am very pleased with the Lighthouse scores for my pages. Some of the first pages had lower scores on performance, this is due to there being more jpegs in these pages before I started using webp formats. I did explore swapping these, particularly on the background on the homepage, but whilst changing the images was relatively easy, recreating the styling for each image would simply be too time consuming with the project deadline.
 
 The thankyou page also had a lower accessibilty score than the other pages, which are consistently very high. This was due to the automatic refresh on the page, which could damage the experience of that page for a user who was accessing through a screen reader or similar software. I wanted to keep this auto refresh in as I thought it was a nice feature to bring the user back to the home page, however I increased the time this would happen from 10 to 30 seconds. Although this did not improve the accessibility score, as the meta attribute was still present, it would in practice give a user more time to tab through the text before the screen was refreshed. However following further accessibility testing (see WAVE section below) this automatic refresh was removed altogether.
+The Lighthouse scores for the thankyou page including the refresh, and those without show a clear improvement in accessibility when the page does not have the refresh.
 
 In the future I would look to replace all the images with webp format images as this would address most of the performance issues which impact the scores.
 
