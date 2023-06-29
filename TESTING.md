@@ -16,6 +16,28 @@ Later issues on first deploying my website, reviewed with my mentor were:
 - Images scaling appropriately across multiple screen sizes/media queries.
 - Some styling issues where sections with relatively small text were dwarfed by large images.
 
+## CONTENTS
+
+- [Automated Testing](#automated-testing)
+- [W3C Validator](#w3c-validator)
+- [Lighthouse Testing](#lighthouse-testing)
+- [Wave Testing](#wave-testing)
+- [Manual Testing](#manual-testing)
+- [First Time Visitors](#first-time-visitors)
+- [Return Visitors](#return-visitor)
+- [History/Samurai Enthusiast](#historysamurai-enthusiast)
+- [Full Testing](#full-testing)
+- [Homepage](#homepage)
+- [Rise Page](#rise-page)
+- [Reign Page](#reign-page)
+- [Legacy Page](#legacy-page)
+- [Form Page](#form-page)
+- [Thank you Page](#thankyou-page)
+- [404 Error Page](#404-error-page)
+- [Bugs](#bugs)
+- [Solved Bugs](#solved-bugs)
+- [Known Issues](#known-issues)
+
 ## Automated Testing
 
 ### W3C Validator
