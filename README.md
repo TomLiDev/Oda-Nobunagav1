@@ -4,7 +4,7 @@
 
 This project was intended to provide engaging and useful information for audiences interested in learning about early Japanese history, feudal systems and the origins of the samurai by telling the story of Oda Nobunaga. Nobunaga is a key figure in Japanese history and many of the most characteristic traits of Japanese culture have been influenced in some way by his life. The story of Nobunaga is historically important, but also provides context and understanding on the origins of many aspects of Japanese life and modern culture. His story itself is exciting and often brutal, with plenty of rich detail to draw on.
 
-This website was intended to give a level of detail that would appeal to history enthusiasts, but also be presented in an accessible, easy to navigate fashion so that newcomers to the information would be drawn in and want to keep exploring and learning more. I chose this as the subject for this site as I personally find it very interesting and I also feel the timeline of events lends itself well to a natural progression of content to keep a user interested and engaged.
+This website was intended to give a level of detail that would appeal to history enthusiasts, but also be presented in an accessible, easy to navigate fashion so that newcomers to the information would be drawn in and want to keep exploring and learning more. I chose this as the subject for this site as I personally, like many other people, find Japanese culture and history fascniating, but not a subject which is taught or understood particularly well in the Western world. I also feel the timeline of events lends itself well to a natural progression of content to keep a user interested and engaged.
 
 ![An image of the finished website on different devices](documentation/readme-intro.png)
 
@@ -21,7 +21,7 @@ Key Information:
 - Who: Who Oda Nobunaga was, what kind of personality he was, what he is known for, what is unusual about him.
 - When: The key miletsones of Nobunagas life and stages of his story, as well as dates for key events.
 - What: The particularly notable things Nobunaga did, events, battles, alliances, marriages etc.
-- Historical Impact: The lasting effects of his life, what he laid the foundation for any events which would not have happened without him.
+- Historical Impact: The lasting effects of his life, what he laid the foundation for, and any events which would not have happened without him.
 
 ### User Stories
 
@@ -46,7 +46,7 @@ I want quick, easy access to this specific content so I can determine how/why No
 
 I wanted a colour scheme which provided good contrast between text/headers and backgrounds for easy navigation which also didn't detract from the main images. I wanted the images to be stand out and be as striking as possible, so opted for a relatively neutral palette.
 
-Many of the images I used for the project are digital copies of original Japanese artwork produced at the time, paintings on parchment and similar materials, which had a straw-like yellow/faded white colour to them. I used this colour as the background for many of the site pages, and it worked well blending the background images and giving contrast for headings and text. I also used the same colour for the font on the nav bar items, to provide consistency and I think it looks better here than plain white.
+Many of the images I used for the project are digital copies of original Japanese artwork produced at the time, paintings on parchment and similar materials, which had a beige/faded/off-white colour to them. I used this colour as the background for many of the site pages, and it worked well blending the background images and giving contrast for headings and text. I also used the same colour for the font on the nav bar items, to provide consistency and I think it looks better than plain white.
 
 ![Image of Color Palette](documentation/color-palette.png)
 
@@ -66,7 +66,7 @@ San's serif is used as the back-up font if EB Garamond cannot be loaded for any 
 
 ### Imagery
 
-Fortunately there are a number of high quality historical images digitally reproduced from original Japanese artwork that I will use throughout the site. This includes images of Nobunaga himself, his military units, battles and castles. These images are impressive and also maintain the historical theme as users navigate the site. However I decided to use modern maps where relevant as the historical maps, whilst pretty, were difficuilt to read and I wanted to give a clear indication of territory/expansion as information. I specifically didn't want to use photos or modern-style representations of samurai as I feel this wouldn't have fit with the historical theme of the site.
+Fortunately there are a number of high quality historical images digitally reproduced from original Japanese artwork that are used throughout the site. This includes images of Nobunaga himself, his military units, battles and castles. These images are impressive and also maintain the historical theme as users navigate the site. However I decided to use modern maps where relevant as the historical maps, whilst pretty, were difficuilt to read and I wanted to give a clear indication of territory/expansion as information. I specifically didn't want to use photos or modern-style representations of samurai as I feel this wouldn't have fit with the historical theme of the site.
 
 ### Wireframes
 
@@ -110,7 +110,7 @@ Every page has the same footer bar comprising icon links to Facebook, Instagram,
 
 #### Sign Up
 
-The homepage and each of the story pages have the prompt at the bottom, above the crest and footer, to sign up to the sites newsletter. This is a link which, when clicked will redirect the user to fill out a form and stay informed. Originally this feature just had underlining on hover, but I wanted to make it look more button when hovering so I added the border to create this effect and make the link stand out more. The unusual border radius on the sign up border is deliberate, I felt a plain rectangular border was not interesting enough so I experimented with the radius and am very pleased with the slight radius effect. This acts to thin the border at its corners, giving almost a 'slice' like appearance which matches very nicely with the Japanese characters and overall theme of the site.
+The homepage and each of the story pages have the prompt at the bottom, above the crest and footer, to sign up to the sites newsletter. This is a link which, when clicked will redirect the user to fill out a form and stay informed. Originally this feature just had underlining on hover, but I wanted to make it look more like a button when hovering so I added the border to create this effect and make the link stand out more. The unusual border radius on the sign up border is deliberate, I felt a plain rectangular border was not interesting enough so I experimented with the radius and am very pleased with the slight radius effect. This acts to thin the border at its corners, giving almost a 'slice' like appearance which matches very nicely with the Japanese characters and overall theme of the site.
 
 ### Homepage
 
@@ -142,23 +142,25 @@ The legacy page is comprised of 2 vertically seperate sections. The first is spl
 
 ![An image of the legacy page shown on different devices](documentation/legacy-page-devices.PNG)
 
-Below this is the final content section detailing Nobunagas legacy and ongoing historical significance. In this section the map to the left of the text takes up half of the section and shows the total territoy eventually conquered by Nobunaga and his ally. I wanted this image ot be large, partly so the legend of the map is readable, but also to show clearly the extent of conquest from his starting point.
+Below this is the final content section detailing Nobunagas legacy and ongoing historical significance. In this section the map to the left of the text takes up half of the section and shows the total territory eventually conquered by Nobunaga and his ally. I wanted this image ot be large, partly so the legend of the map is readable, but also to show clearly the extent of conquest from his starting point.
 
 ### Sign Up Form
 
 The sign up form is the call to action of the site and gives a mechanism for additional information in the future, which will act to encourage repeat visits. Specifically a user is prompted to enter their details and select which topics they would like to be kept informed on from the newsletter, ensuring a consistent flow of relevant information from that point on.
+The form questions validate and will not allow the form to be submitted unless answers are provided in the relevant question fields.
+The submit button has a hover effect to underline and give a border around the anchor, creating a visually pleasing effect of a button.
 
 ![An image of the sign up form shown on different devices](documentation/form-page-devices.PNG)
 
 ### Thank you page
 
-A response page for users to see and confirm that they have successfully signed up the newsletter was added. This page was originally built with an automatic refresh every 10 seconds, this was later increased to 30 seconds, and then finally removed altogether. The reasons behind this are explained in the testing.md. Instead a clickable link back to the homepage is included to facilitate return to the main site and continued use.
+A response page for users to see and confirm that they have successfully signed up the newsletter was added. This page was originally built with an automatic refresh every 10 seconds, this was later increased to 30 seconds, and then finally removed altogether. The reasons behind this are explained in the testing.md. Instead a clickable link back to the homepage is included to facilitate return to the main site and continued use. The link has a hover effect underlining the text, which is a nice visual cue that is indeed a link back to the homepage.
 
 ![An image of the Thank you page on different devices](documentation/thankyou-page-devices.PNG)
 
 ### 404 Error Page
 
-A simple, responsive customised 404 page was built with a link to redirect the user back to the home page.
+A simple, responsive customised 404 page was built with a link to redirect the user back to the home page. The link has a hover effect underlining the text, which is a nice visual cue that is indeed a link back to the homepage.
 
 ![An image of the 404 erorr page on different devices](documentation/404-page-devices.PNG)
 
@@ -173,7 +175,7 @@ creen at that time, as if they were being painted on as the user scrolled down.
 
 ### Accessibility
 
-This site will be built to be as accessible as possible, specifically:
+This site has been built to be as accessible as possible, specifically:
 
 - All images have alt text attributes and all anchors have aria labels for use by screen readers.
 - The colour scheme has been chosen to ensure a good level of contrast is maintained for text across the site.
@@ -203,7 +205,7 @@ HTML and CSS whhere used.
 
 This was website was deployed using Github pages. Instructions to do this are:
 
-1. Log in (or sign up) to Github.
+1. Go to Github and Log in (or sign up).
 2. Find the repository for this project, TomLiDev/Oda-Nobunagav1.
 3. Click on the Settings link.
 4. Click on the Pages link in the left hand side navigation bar.
